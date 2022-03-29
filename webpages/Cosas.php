@@ -1,6 +1,17 @@
 <html>
 <head>
     <title>Alumnes</title>
+    <table class="default">
+
+  <tr>
+
+    <td>"Albert C"</td>
+
+    <td>"Andrea"</td>
+
+    <td>"Oscar"</td>
+
+  </tr>
 </head>
 <body>
 <h1 style="text-align:center;"style ='color:'#008080>Els meus alumnes</h1>
