@@ -8,7 +8,7 @@ function hola()
 {
     return "Hola a tothom";
 }
-echo hola();
+echo "<h1 style='color: green'>" .hola(). "</h1>";
 
 ?>
 </body>
