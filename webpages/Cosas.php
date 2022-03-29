@@ -4,12 +4,13 @@
 </head>
 <body>
 <h1 style="text-align:center;" >Els meus alumnes</h1>
+<h2 '<img src="https://www.latercera.com/resizer/wvCMr6B4HSnbYmlI…azonaws.com/public/OI7WIZAY6NDH7AQHHZ2NLXTCX4.jpg"onclick ="alert(2)" alt="" width="100" height="100"'</h2>
+
 <?php
 
-    $nom_alumnes = array("Albert C", "Andrea", "Oscar", "Anas");
-
+    $nom_alumnes = array("Albert C", "Andrea", "Oscar", "Anas","falto jo jajaj ");
     foreach ($nom_alumnes as $nom){
-        echo "<h2 >" . $nom . "</h2>";
+        echo "<h2 style ='color:'#008080'>" . $nom . "</h2>";
         echo '<img  src="../recursos/programmerw.png" onclick ="alert(2)" alt="" width="100" height="100">';
     }
 
