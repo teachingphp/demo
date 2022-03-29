@@ -3,10 +3,10 @@
     <title>Alumnes</title>
 </head>
 <body>
-<h1 style="text-align:center;" >Els meus alumnes</h1>
+<h1 style="text-align:center;" >LLista dels alumnes de la classe</h1>
 <?php
 
-    $nom_alumnes = array("Albert C", "Andrea", "Oscar", "Anas");
+    $nom_alumnes = array("Albert C", "Andrea", "Oscar", "Anas","FALTO JO :ALBERT XD");
 
     foreach ($nom_alumnes as $nom){
         echo "<h2 >" . $nom . "</h2>";
