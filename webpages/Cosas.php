@@ -3,8 +3,8 @@
     <title>Alumnes</title>
 </head>
 <body>
-<h1 style="text-align:center;"style ='color:'#008080>Els meus alumnes</h1>
-<img="https://www.latercera.com/resizer/wvCMr6B4HSnbYmlIGtaDQVfuch4=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/OI7WIZAY6NDH7AQHHZ2NLXTCX4.jpg" alt="bob esponja" pinger-seen="true">
+<h1 style="text-align:center;"style ='color:'#008080 >Els meus alumnes</h1>
+<h1 style="text-align:center;"> <img src="https://www.latercera.com/resizer/wvCMr6B4HSnbYmlIGtaDQVfuch4=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/OI7WIZAY6NDH7AQHHZ2NLXTCX4.jpg" alt="bob esponja"width="200" height="200"> 
 
 <?php
 
