@@ -1,15 +1,16 @@
 <html>
 <head>
     <title>Alumnes</title>
+
     <table class="default">
 
   <tr>
 
-    <td>"Albert C"</td>
+    <td><h2 style=color:red>Albert C</td>
 
-    <td>"Andrea"</td>
+    <td>Andrea</td>
 
-    <td>"Oscar"</td>
+    <td>Oscar</td>
 
   </tr>
 </head>
@@ -21,7 +22,7 @@
 
     $nom_alumnes = array("Albert C", "Andrea", "Oscar", "Anas","Alex P.");
     foreach ($nom_alumnes as $nom){
-        echo "<h2 style ='color:'#008080'>" . $nom . "</h2>";
+        echo "<h2 >" . $nom . "</h2>";
         echo '<img  src="../recursos/programmerw.png" onclick ="alert(2)" alt="" width="100" height="100">';
     }
 
