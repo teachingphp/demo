@@ -6,7 +6,7 @@
 
   <tr>
 
-    <td><h2 style=color:red>Albert C</td>
+    <td><h1 style=color:red>Albert C</td>
 
     <td><h1 style=color:blue>Andrea</td>
 
