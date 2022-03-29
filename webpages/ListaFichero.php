@@ -6,9 +6,18 @@
 <h1 style="text-align:center;" >Llista dels alumnes de la classe</h1>
 <?php
     $miFichero = fopen("../recursos/listaAlumnos.txt", "r") or die("No se puede abrir el fichero!");
+    $noies = array("Andrea","Ana","Marcela");
+
     while(!feof($miFichero)){
-        echo "<h2 >" . fgets($miFichero) . "</h2>";
-        echo '<img  src="../recursos/programmer.png" onclick ="alert(2)" alt="" width="100" height="100">';
+        $nombreAlumno = str_replace("\r\n","",fgets($miFichero));
+        if (in_array($nombreAlumno,$noies)){
+            echo "<h2 >" . $nombreAlumno . "</h2>";
+            echo '<img  src="../recursos/programmerw.png" onclick ="alert(2)" alt="" width="100" height="100">';
+         }
+        else{
+            echo "<h2 >" . $nombreAlumno . "</h2>";
+            echo '<img  src="../recursos/programmer.png" onclick ="alert(2)" alt="" width="100" height="100">';
+        }
     }
 
 
