@@ -6,13 +6,15 @@
 
   <tr>
 
-    <td><h1 style=color:red>Albert C</td>
-
-    <td><h1 style=color:blue>Andrea</td>
+    <td><h1 style=color:red><p style="font-family:RolasanSignature">Albert C</td></p>
+    
+    <td><h1 style=color:blue><p style="font-family:arial">Andrea</td></p>
 
     <td><h1 style=color:green>Oscar</td>
 
   </tr>
+  
+</table>
 </head>
 <body>
 <h1 style="text-align:center;"style ='color:'#008080>Els meus alumnes</h1>
@@ -23,9 +25,9 @@
     $nom_alumnes = array("Albert C", "Andrea", "Oscar", "Anas","Alex P.");
     foreach ($nom_alumnes as $nom){
         echo "<h2 >" . $nom . "</h2>";
-        echo '<img  src="../recursos/programmerw.png" onclick ="alert(2)" alt="" width="100" height="100">';
+        echo '<img  src="../recursos/programmer.png" onclick ="alert(72)" alt="" width="100" height="100">';
     }
-
+    
 ?>
     
 
