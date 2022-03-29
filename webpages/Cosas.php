@@ -4,7 +4,7 @@
 </head>
 <body>
 <h1 style="text-align:center;"style ='color:'#008080>Els meus alumnes</h1>
-<img src="https://www.latercera.com/resizer/wvCMr6B4HSnbYmlI…azonaws.com/public/OI7WIZAY6NDH7AQHHZ2NLXTCX4.jpg"onclick ="alert(2)" alt="bob esponja" width="100" height="100">
+<img src="https://www.latercera.com/resizer/wvCMr6B4HSnbYmlI…azonaws.com/public/OI7WIZAY6NDH7AQHHZ2NLXTCX4.jpg"onclick ="alert(2)" alt="bob esponja" width="1000" height="1000">
 
 <?php
 
