@@ -4,6 +4,7 @@
 <html>
     <head>
         <title>Slapped mah boi</title>
+        <h1>Ce murió</h1>
         <video width="700" height="450" controls>
   <source src="./Bonk.mp4" type="video/mp4">
 
