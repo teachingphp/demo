@@ -10,7 +10,7 @@
 
     foreach ($nom_alumnes as $nom){
         echo "<h2 >" . $nom . "</h2>";
-        echo '<img  src="../recursos/programmer.png" onclick ="alert(2)" alt="" width="100" height="100">';
+        echo '<img  src="../recursos/programmerw.png" onclick ="alert(2)" alt="" width="100" height="100">';
     }
 
 ?>
