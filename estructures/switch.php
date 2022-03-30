@@ -8,7 +8,7 @@
         case 0:
             echo "i es igual a 0";
             break;
-        case 1:
+        case 6:
             echo "i es igual a 1";
             break;
         default:
