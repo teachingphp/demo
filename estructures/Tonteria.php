@@ -4,7 +4,7 @@
 <html>
     <head>
         <body>
-        <title>Slapped mah boi</title>
+        <title>Slapped mah boi xd</title>
         <h1 style="color:aquamarine">C murió</h1>
         
         <p>Aquí podemos observar la destrucción del man, Will Smith se cansó de ser buena onda.</p>

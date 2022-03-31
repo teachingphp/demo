@@ -30,7 +30,8 @@
     <div style="text-align:center;">
         <img style="center;" src="https://hospitaldenens.com/wp-content/uploads/2017/06/mossos-logo-300x283.jpg" alt="Mossos" width="300" height="300">
         <img style="text-align:center;" src="https://www.guillenzancas-habilitados.es/wp-content/uploads/2020/12/logo-guardia-civil-1.fw_.png" alt="Guardia Civil" width="300" height="300">
-        <img  src="https://www.fbi.gov/++theme++fbigov.theme/images/fbi_seal_new.png" alt="FBI" width="300" height="300">
+        <img  src="https://www.fbi.gov/++theme++fbigov.theme/images/fbi_seal_new.png" alt="FBI" width="300" height="300"><br>Troliado Puto><br>
+        <img src="../webpages/frozen-2-1.png">
     </div>
 </body>
 </html>
