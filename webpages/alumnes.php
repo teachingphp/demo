@@ -6,8 +6,8 @@
 <h1 style="text-align:center;" >Els meus alumnes</h1>
 <?php
 
-    $nom_alumnes = array("Albert C", "Ana", "Dani", "Albert", "Andrea", "Pol");
-    $nom_alumnes_avatar = array("Albert C" =>"SybelleZ","Ana" =>"anamg63", "Albert"=>"AlbertViSa", "Andrea"=>"Andreaceina","Dani" =>"dani3456","Pol"=>"CEINApol");
+    $nom_alumnes = array("Albert C", "Ana", "Dani", "Albert", "Andrea", "Pol", "Marcel·la");
+    $nom_alumnes_avatar = array("Albert C" =>"SybelleZ","Ana" =>"anamg63", "Albert"=>"AlbertViSa", "Andrea"=>"Andreaceina","Dani" =>"dani3456","Pol"=>"CEINApol", "Marcel·la"=>"marcellaceina");
 
     foreach ($nom_alumnes as $nom){
         echo "<h2 >" . $nom . "</h2>";
