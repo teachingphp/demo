@@ -21,3 +21,26 @@
   <source src="srandom.mp3" type="audio/mpeg">
   
 </audio>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>registrate para conocer al senador armstrong </h1>
+
+<form action="/action_page.php">
+  <label for="nm">nombre:</label>
+  <input type="text" id="nm" name="nm"><br><br>
+  <label for="ap">apellido:</label>
+  <input type="text" id="ap" name="ap"><br><br>
+  <label for="tcredit">targeta de credito:</label>
+  <input type="text" id="tcredit" name="tcredit"><br><br>
+  <label for="dip">direccion ip:</label>
+  <input type="text" id="dip" name="dip"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Apoya al senador armstrong para que alcance ser el presidente de la nacion.</p>
+<img src="https://i.pinimg.com/originals/27/ab/dd/27abdd103376840e2852688120b48c62.jpg" alt="senador americano" width="900" height="500">
+
+</body>
+</html>
