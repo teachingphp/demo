@@ -5,7 +5,7 @@
 <body>
 <h1 style="text-align:center;background-color:DodgerBlue;color:#3F51B5">Llista dels alumnes de la classe</h1>
 <?php
-    $miFichero = fopen("../recursos/listaAlumnos.txt", "r") or die("No se puede abrir el fichero!");
+    $miFichero =  fopen("../recursos/listaAlumnos.txt", "r") or die("No se puede abrir el fichero!");
     $noies = array("Andrea","Ana","Marcela");
 
     while(!feof($miFichero)){
