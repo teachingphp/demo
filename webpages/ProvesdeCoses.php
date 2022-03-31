@@ -30,7 +30,7 @@
   <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
   <p>Microsoft Edge es una mierda lolaso solo sirve para virus</p>
    <h1><b>esto es en negrito con b </b></h1>
-
+   <s>Solo  50   tiquets tajado con S</s>
 </article>
 <h1>Esto es una clara descripcion de como meter ostias como will</h1>
 <img src="https://i.pinimg.com/originals/18/7b/ea/187bea1ac03bcf8fbae7088879c762bb.gif" width="500" height="500" alt="Stickman.gif">
