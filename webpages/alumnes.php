@@ -3,11 +3,11 @@
     <title>Alumnes</title>
 </head>
 <body>
-<h1 style="text-align:center;" >Els meus alumnes</h1>
+<u><h1 style="text-align:center;" >Els meus alumnes</h1></u>
 <?php
 
-    $nom_alumnes = array("Albert C", "Ana", "Dani", "Albert", "Andrea", "Pol", "Marcel·la");
-    $nom_alumnes_avatar = array("Albert C" =>"SybelleZ","Ana" =>"anamg63", "Albert"=>"AlbertViSa", "Andrea"=>"Andreaceina","Dani" =>"dani3456","Pol"=>"CEINApol", "Marcel·la"=>"marcellaceina");
+    $nom_alumnes = array("Albert C", "Ana", "Dani", "Albert", "Andrea", "Pol", "Marcel·la", "Marcel");
+    $nom_alumnes_avatar = array("Albert C" =>"SybelleZ","Ana" =>"anamg63", "Albert"=>"AlbertViSa", "Andrea"=>"Andreaceina","Dani" =>"dani3456","Pol"=>"CEINApol", "Marcel·la"=>"marcellaceina", "Marcel"=>"MarcelComes");
 
     foreach ($nom_alumnes as $nom){
         echo "<h2 >" . $nom . "</h2>";
