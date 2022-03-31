@@ -1,10 +1,11 @@
 <html>
 <head>
-    <title>Alumnes</title>
+  
+<title>Alumnes</title>
 
     <table class="default">
 
-  <tr>
+<!--<tr>
 
     <td><h1 style=color:red><p style="font-family:RolasanSignature">Albert C</td></p>
     
@@ -12,8 +13,7 @@
 
     <td><h1 style=color:green>Oscar</td>
 
-  </tr>
-  
+</tr>-->
 </table>
 </head>
 <body>
@@ -23,7 +23,7 @@
 
 <img src="https://www.w3schools.com/tags/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 <map name="workmap">
-  
+
   <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/w3images/mac.jpg">
   <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.w3schools.com/w3images/cellphone.jpg">
   <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.w3schools.com/w3images/coffeehouse2.jpg">
