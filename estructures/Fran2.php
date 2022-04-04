@@ -1,10 +1,9 @@
 <?php
 
-<html>
 
 ?>
 
 <head>
-    <$_SESSION> 
+<title> Login </title>
 
     
