@@ -4,6 +4,6 @@
 ?>
 
 <head>
-echo <title> Login </title>
+<title> Login </title>
 
     
