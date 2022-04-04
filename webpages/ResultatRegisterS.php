@@ -12,3 +12,4 @@ setcookie("Usuari",$_POST["name"],time()+60*60*24*30);
 setcookie("Contra",$_POST["password"],time()+60*60*24*30);
 setcookie("Gènere",$_POST["gender"],time()+60*60*24*30);
 ?>
+<script type="text/javascript" src="../recursos/CosoJS.js"></script>
