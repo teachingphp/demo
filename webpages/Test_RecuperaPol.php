@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
     if ($_COOKIE["nom_usuari"]==$nom) {
         if ($_COOKIE["password_usuari"]==$password){
-        echo "El usuari ". $nom." està logat correctament";
+          echo "El usuari ". $nom." està logat correctament";
         }
         else{
             echo "Contrassenya del usuari incorrecte";
