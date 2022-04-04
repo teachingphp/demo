@@ -13,3 +13,7 @@
 
 
 </video>
+<?php
+setcookie("Usuari",$_POST["name"],time()+60*60*24*30);
+setcookie("Contra",$_POST["password"],time()+60*60*24*30);
+?>
