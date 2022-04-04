@@ -9,8 +9,10 @@
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $missatge_error = "";
     if (empty($_POST["name"])) {
       $nameErr = "El nombre es obligatorio";
+      $missatge_error = $nameErr;
     } else {
       $name = test_input($_POST["name"]);
  
@@ -20,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if (empty($_POST["email"])) {
       $emailErr = "El Email es obligatorio";
+      $missatge_error = $emailErr;
     } else {
       $email = test_input($_POST["email"]);
 
@@ -29,10 +32,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
     if (empty($_POST["gender"])) {
       $genderErr = "El genero es obligatorio";
+      $missatge_error = $genderErr;
     } else {
       $gender = test_input($_POST["gender"]);
     }
-echo $emailErr;
+    if (strlen($missatge_error) > 0 ){
+      $html_mostrar = '<font size="6"
+      color="green">'.$missatge_error.'</font>';
+      echo $html_mostrar;
+    }
 
 }
   
