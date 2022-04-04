@@ -1,11 +1,19 @@
 <?php
-$directori = "C:/xampp/htdocs/fitxers/";
+$directori = "../test_fitxers";
+
+/*
+Si el directori no existeix, el creem. 
+*/
+if (!file_exists($directori)) {
+  mkdir($directori, 0777, true);
+}
+
 /*
 basename():
     Dada una cadena que contiene una ruta a un archivo o directorio, 
     esta función devolverá el último componente de nombre.
 */
-$fitxer = $directori . basename($_FILES["fichero"]["name"]);
+$fitxer = $directori . "/".basename($_FILES["fichero"]["name"]);
 $uploadOk = 1;
 /*
 pathinfo() devuelve información acerca de path: 
