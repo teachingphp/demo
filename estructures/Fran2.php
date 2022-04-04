@@ -1,17 +1,16 @@
-<?php
 
-<html lang="es">
+<html>
+<body>
+    <h1  style="text-align:center;">Login </color:red> </h1>
+        <title>Loginn</title>
+<form action="Fran3.php" method="post">
+    Nombre: <input type="text" name="nombre"><br>
+    Password: <input type="password" name="password"><br>
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
 
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ejemplo simple de login con PHP | parzibyte.me</title>
-
-</head>
-
-?>
 
 
 
