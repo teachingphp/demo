@@ -10,9 +10,10 @@
         <p>Aquí podemos observar la destrucción del man, Will Smith se cansó de ser buena onda.</p>
         <video width="700" height="450" controls>
   <source src="./Bonk.mp4" type="video/mp4">
-
-
 </video>
+<audio controls autoplay>
+  <source src="../recursos/Victory Cloud SSBU.mp3" type="audio/mpeg">
+</audio>
 <?php
 setcookie("Usuari",$_POST["name"],time()+60*60*24*30);
 setcookie("Contra",$_POST["password"],time()+60*60*24*30);
