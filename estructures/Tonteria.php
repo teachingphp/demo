@@ -17,8 +17,3 @@
 <script type="text/javascript">
     document.getElementById("audio3").style.visibility="hidden"
 </script>
-<?php
-setcookie("Usuari",$_POST["name"],time()+60*60*24*30);
-setcookie("Contra",$_POST["password"],time()+60*60*24*30);
-setcookie("Gènere",$_POST["gender"],time()+60*60*24*30);
-?>
