@@ -6,7 +6,7 @@
 <h1 style="text-align:center;" >Gracias! Tus dados se han enviado correctamente.</h1>
 <?php
 
-    //print_r($_POST, false);
+    print_r($_POST, false);
     if (isset($_POST["name"])){
         $nom = $_POST["name"];
     }
