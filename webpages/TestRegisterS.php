@@ -8,22 +8,24 @@
     <style>
         
 body {
-  background-color: lightblue;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+   text-align: left;
+   color: orchid;
+  font-family: monospace;
+  font-size: 50px;
 }
 </style>
         <body>
         <title>Registrat</title>
-        <h1 style="color:mediumturquoise">Registrat</h1>
+        <h1>Registrat</h1>
         
         <p>Requereix aquestes dades:</p>
     <form action="../webpages/ResultatRegisterS.php" method="post">
