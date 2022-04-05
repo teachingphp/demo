@@ -36,12 +36,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
       $gender = test_input($_POST["gender"]);
     }
+
+    if (empty($_POST["pass"])) {
+      $passErr = "La contraseña es obligatoria";
+      $missatge_error = $passErr;
+    } else {
+      $pass = test_input($_POST["pass"]);
+    }
     if (strlen($missatge_error) > 0 ){
-      $html_mostrar = '<font size="6"
-      color="green">'.$missatge_error.'</font>';
+      $html_mostrar = '<font size="3"
+      color="red">'.$missatge_error.'</font>';
       echo $html_mostrar;
     }
-
+    if (empty($_POST["date"])) {
+      $dateErr = "La fecha de nacimiento es obligatoria";
+      $missatge_error = $dateErr;
+    } else {
+      $pass = test_input($_POST["date"]);
+    }
+    if (strlen($missatge_error) > 0 ){
+      $html_mostrar = '<font size="3"
+      color="red">'.$missatge_error.'</font>';
+      echo $html_mostrar;
+    }
 }
   
   function test_input($data) {
@@ -67,30 +84,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <br><br>
   <span class="error">
   <font
-  color="purple"><b>Contraseña:</b></font> <input type="text" name="email">
+  color="purple"><b>Contraseña:</b> <input type="password" name="pass">
   <span class="error">    <font
           color="red">
             *
         </font>
   <br><br>
   <font
-  color="purple"> <b>Email de registro:</b> <input type="text" name="email">
+  color="purple"> <b>Email de registro:</b> <input type="email" name="email">
   <span class="error">    <font
           color="red">
             *
-        </font>
         </font>
   <br><br>
-  <b>Email de contacto:</b> <input type="text" name="email">
-  <span class="error">    <font
-          color="red">
-            *
-        </font>
+  <b>Email de contacto:</b> <input type="email" name="email2">
 <br>
 <br>
 <font
-          color="purple"><b>Genero:</b> </font>
-          <Font COLOR ="White">
+    color="purple"><b>Número de Teléfono:</b> <input type="number" name="number">
+  <br>
+  <br>
+  <font
+  color="purple"> <b>Fecha de Nacimiento:</b> <input type="date" min="1899-01-01" max="2000-13-13" name="date">
+  <span class="error">    <font
+          color="red">
+            *
+        </font>
+  <br><br>
+  <font
+  color="purple"><b>Genero:</b> </font>
+  <Font COLOR ="White">
   <input type="radio" name="gender" value="female">Femenino
   <input type="radio" name="gender" value="male">Masculino
   <input type="radio" name="gender" value="other">Otro
@@ -99,7 +122,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           color="red">
             *
         </font>
-  <br><br>
+  <br>
+  <br>
+  <br>
   <input type="submit" name="submit" value="Enviar Formulario📤">  
 </form>
 

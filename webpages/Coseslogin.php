@@ -1,29 +1,50 @@
 <html>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+img {
+  -webkit-box-reflect: right;
+}
+img {
+  -webkit-box-reflect: right;
+}
+</style>
 <head>
     <title>Register</title>
     <h1 style="text-align:center;">Bienvenido</h1>
     <h2 style="text-align:center;">CosasLogin.PHP</h2>
-
+    <img src="https://www.w3schools.com/css/img_tree.png">
 </head>
 <body>
 <form action="Test.login.Coses.php" method="post">
     Nom usuari: <input type="text" name="name"><br><br>
-    Email: <input type="text" name="email"><br><br>
+    Email: <input type="email" name="email"><br><br>
     Password: <input type="password" name="password"><br><br>
-
-<h1 style="color:red"> No sin antes decir que Genero eres:</h1>
+    <input type="submit" name="submit" value="Resgistrer">
+</form>
+<h1 style="color:red"> ¿HAS PERDIDO TU CONTRASEÑA?</h1>
+<h2 style="color:blue">Desplega el desplegable valga la rebundancia</h2>
 <details>
-<summary>todo lo semas(Generos)</summary><br>
-<input type="radio" id="html" name="generenobinario" value="generenobinario">
-<label for="generenobinario">generenobinario</label><br><br>
-<input type="radio" id="Mascle" name="Mascle" value="Mascle">
-<label for="Mascle">Mascle</label><br><br>
-<input type="radio" id="Loquequieras" name="Loquequieras" value="loquequieras">
-<label for="Loquequieras">Lo que quieras</label><br><br>
-<input type="submit" name="submit" value="Resgistrer tonto">
+<summary>valida aqui!!</summary><br>
+<form action="Valida.Cosas.php" method="post">
+    Nom usuari: <input type="text" name="usuari"><br><br>
+    Email: <input type="email" name="gmail"><br><br>
+    <input type="submit" name="submit" value="VALIDA">
 </details>
 </form>
 </body>
+
 </html>
 
 
