@@ -13,12 +13,18 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+img {
+  -webkit-box-reflect: right;
+}
+img {
+  -webkit-box-reflect: right;
+}
 </style>
 <head>
     <title>Register</title>
     <h1 style="text-align:center;">Bienvenido</h1>
     <h2 style="text-align:center;">CosasLogin.PHP</h2>
-
+    <img src="https://www.w3schools.com/css/img_tree.png">
 </head>
 <body>
 <form action="Test.login.Coses.php" method="post">
