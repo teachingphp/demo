@@ -32,6 +32,7 @@
     {
         $missatge = " Error ERES un BOt validacion de gmail incorrecta";
         echo $missatge;
+        
 
     }
 
