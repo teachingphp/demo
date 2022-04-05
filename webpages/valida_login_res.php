@@ -11,6 +11,10 @@
     $missatge_per_usuari = "";
     if ($_POST["usuari"] === $_COOKIE["usuari"]){
         $missatge_per_usuari ="Mateix usuari";
+        $myAudioFile = "../estructures/srandom.mp3";
+echo '<audio style="display:none;" controls autoplay >
+         <source src="'.$myAudioFile.'" type="audio/mpeg">
+      </audio>';
     }else{
         $missatge_per_usuari ="No coincideix usuari";
     }
