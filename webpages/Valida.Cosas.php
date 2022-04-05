@@ -12,12 +12,12 @@
     if($_POST["usuari"] === $_COOKIE["usuari"])
     {
         $usuari = $_POST["usuari"];
-        $missatge == "Mateix usuari";
+        $missatge = "Mateix usuari";
 
     }
     else
     {
-        $missatge == "Error ERES un BOT LOLAAAASO PUTO";
+        $missatge = "Error ERES un BOT LOLAAAASO PUTO validacion de usuario incorrecta";
         echo $missatge;
 
     }
@@ -25,12 +25,12 @@
     {
         $gmail = $_POST["gmail"];
 
-        $missatge == "Mateix email";
-        
+        $missatge = "Mateix email";
+        echo " Ahora te mandaremos un correo electronico con la credenciales para cambiar la contraseña";
     }
     else
     {
-        $missatge == "Error ERES un BOT O Tonto LOLAAAASO PUTO";
+        $missatge = " Error ERES un BOt validacion de gmail incorrecta";
         echo $missatge;
 
     }
