@@ -10,7 +10,7 @@
         <h1 style="color:mediumturquoise">Registrat</h1>
         
         <p>Requereix aquestes dades:</p>
-    <form action="../estructures/Tonteria.php" method="post">
+    <form action="../webpages/ResultatRegisterS.php" method="post">
         Usuari <input type="text" name="name"><br><br>
         Email <input type="email" name="email"><br><br>
         Contrasenya <input type="password" name="password"><br><br>

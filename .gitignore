@@ -1,0 +1,2 @@
+#Ignorem el directori test_fitxers per no pujar tots els fitxers de test al repositori
+test_fitxers/
