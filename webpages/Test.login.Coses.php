@@ -22,29 +22,12 @@ if (isset($_POST["email"])){
 
 if (isset($_POST["password"])){
     $password = $_POST["password"];
-    setcookie("Pasword",$nom,time()+60*60*24*30);
-}
-if(isset($_POST["Mascle"])){
-    $Mascle = $_POST["Mascle"];
-    $Mascle = "Mascle";
-}
-if(isset($_POST["Loquequieras"])){
-    $Loquequieras = $_POST["Loquequieras"];
-    $Loquequieras = "Loquequieras";
-}
-if(isset($_POST["genronobinario"])){
-    $generonobinario = $_POST["generonobinario"];
-    $generonobinario = "generonobinario";
 
 }
 $datos = '<div style="color:red;"><h2 style="text-align:center;" >Nombre: '.$nom .' </h2>';
 echo $datos;
 $datos = '<h2 style="text-align:center;" >Correo: '.$email .'</h2></div>';
 echo $datos;
-$datos = '<div style="color:blue;"><h2 style="text-align:center;">Genere: '.$Mascle||$Loquequieras||$generonobinario.'</h2>';
-echo $datos;
-
-
 ?>
 </body>
 </html>
