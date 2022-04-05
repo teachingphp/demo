@@ -7,29 +7,31 @@
 
 <?php
 
-    print_r($_POST,false);
+    //print_r($_POST,false);
     $missatge = "";
-    if($_POST["usuari"] === $_COOKIE["name"])
+    if($_POST["usuari"] === $_COOKIE["usuari"])
     {
+        $usuari = $_POST["usuari"];
         $missatge == "Mateix usuari";
 
     }
     else
     {
         $missatge == "Error ERES un BOT LOLAAAASO PUTO";
-
+        echo $missatge;
 
     }
-    if($_POST["gmail"] === $_COOKIE["email"])
+    if($_POST["gmail"] === $_COOKIE["Email"])
     {
-        $missatge == "Mateix email";
-        echo "Ahora le enviamos un correo de validacion para cambiar la contraseña deseada";
+        $gmail = $_POST["gmail"];
 
+        $missatge == "Mateix email";
+        
     }
     else
     {
         $missatge == "Error ERES un BOT O Tonto LOLAAAASO PUTO";
-
+        echo $missatge;
 
     }
 
