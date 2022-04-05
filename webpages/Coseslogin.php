@@ -1,5 +1,5 @@
 <html>
-<style>
+<!--<style>
 body {
   background-color: lightblue;
 }
@@ -13,15 +13,17 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+
 img {
-  -webkit-box-reflect: right;
+
+  -webkit-box-reflect: right 925px;
 }
-img {
-  -webkit-box-reflect: right;
-}
-</style>
+
+</style>-->
 <head>
+    
     <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="../css/CosesdecssE.css?v=<?php echo time();?>">
     <h1 style="text-align:center;">Bienvenido</h1>
     <h2 style="text-align:center;">CosasLogin.PHP</h2>
     <img src="https://www.w3schools.com/css/img_tree.png">
