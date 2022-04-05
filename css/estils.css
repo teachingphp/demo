@@ -13,3 +13,19 @@ p {
     font-family: verdana;
     font-size: 70px;
   }
+
+  div{
+    /*background: linear-gradient(to top, #990000 50%, #cc00ff 100%);*/
+  }
+
+  input{
+    font-size: 50px;
+  }
+  
+  #usuari {
+    font-size: 100px;
+  }
+
+  .tots_iguals{
+    color: red;
+  }
