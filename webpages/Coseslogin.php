@@ -17,7 +17,7 @@ img {
   -webkit-box-reflect: right;
 }
 img {
-  -webkit-box-reflect: right;
+  -webkit-box-reflect: below;
 }
 </style>
 <head>
