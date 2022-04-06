@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
 <html>
+<link rel="stylesheet" type="text/css" href="../css/estiloPol.css?v=<?php echo time(); ?>">
  <head>
     <meta charset="UTF-8">
-
+   
+    <title>Configuració PHP Debug</title>
  </head>   
 <body>
 
-<h1>PHP DEBUG</h1>
+<h1>Configuració PHP DEBUG</h1>
 <hr>
 <h2>1.- Extensió PHP Debug al Visual Studio Code</h2>
 <p>Anem a l'apartat de extensions del Visual Studio Code i descarraguem i instal·lem 
@@ -41,7 +43,7 @@
 <h2>12.- Configurem el fitxer settings.json afegint la línea (o modificant): </h2>
 <img  src="./11.PNG" alt="Paso 11">
 <h2>Si tot ha anat be ja hauria de funcionar correctament. Posa un breakpoint i prem F5 per debuggar </h2>
-<h2>Reiniciar Visual Studio Code i Apache si no funciona </h2>
+<h2>Reiniciar Visual Studio Code i Apache si no funciona. </h2>
 </body>
 <!--[Xdebug]
 xdebug.remote_enable = 1
@@ -51,5 +53,14 @@ zend_extension = xdebug
 xdebug.mode = debug
 Xdebug.start_with_request = yes
 -->
+<a class="twitter-timeline"
+  href="https://twitter.com/CeinaFormacio?ref_src=twsrc%5Etfw""
+  data-width="400"
+  data-height="600">
+Tweets by @CeinaFormacio
+</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 </html>
 
