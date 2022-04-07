@@ -1,2 +1,33 @@
 /*https://www.w3schools.com/css/default.asp*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+body {
+    background:linear-gradient(to bottom, #99ccff 0%, #ff8533 100%);
+    cursor: url('../pagines/imatges/champi----n_venenoso_ssbb-remo.png'),auto;
+}
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+}
+h1 {
+    text-align: center;
+    color: #7575a3;
+}
+h2 {
+    text-align: center;
+    color: #000000;
+}
+p {
+    text-align: center;
+    color: #000000;
+}
+summary
+{
+    text-align: center;
+    color: #fb0000;
 
+}
