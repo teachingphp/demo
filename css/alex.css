@@ -1,8 +1,9 @@
 /*https://www.w3schools.com/css/default.asp*/
 body {
     background-color: lightblue;
-  }
-  
+    cursor: url('../pagines/imatges/buo\ definitivo.png'),auto;
+}
+
   h1 {
     color: rgb(241, 176, 176);
     text-align: center;
