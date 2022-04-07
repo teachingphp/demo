@@ -11,7 +11,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $missatge_error = "";
     if (empty($_POST["name"])) {
-      $nameErr = "El nombre es obligatorio";
+      $nameErr = "El nombre es obligatorio  ";
       $missatge_error = $nameErr;
     } else {
       $name = test_input($_POST["name"]);
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     if (empty($_POST["email"])) {
-      $emailErr = "El Email es obligatorio";
+      $emailErr = "El Email es obligatorio  ";
       $missatge_error = $emailErr;
     } else {
       $email = test_input($_POST["email"]);
@@ -31,14 +31,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   
     if (empty($_POST["gender"])) {
-      $genderErr = "El genero es obligatorio";
+      $genderErr = "El genero es obligatorio    ";
       $missatge_error = $genderErr;
     } else {
       $gender = test_input($_POST["gender"]);
     }
 
     if (empty($_POST["pass"])) {
-      $passErr = "La contraseña es obligatoria";
+      $passErr = "La contraseña es obligatoria  ";
       $missatge_error = $passErr;
     } else {
       $pass = test_input($_POST["pass"]);
@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo $html_mostrar;
     }
     if (empty($_POST["date"])) {
-      $dateErr = "La fecha de nacimiento es obligatoria";
+      $dateErr = "La fecha de nacimiento es obligatoria  ";
       $missatge_error = $dateErr;
     } else {
       $pass = test_input($_POST["date"]);
