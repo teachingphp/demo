@@ -1,9 +1,32 @@
 <html>
+<!--<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img {
+
+  -webkit-box-reflect: right 925px;
+}
+
+</style>-->
 <head>
+    
     <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="../css/CosesdecssE.css?v=<?php echo time();?>">
     <h1 style="text-align:center;">Bienvenido</h1>
     <h2 style="text-align:center;">CosasLogin.PHP</h2>
-
+    <img src="https://www.w3schools.com/css/img_tree.png">
 </head>
 <body>
 <form action="Test.login.Coses.php" method="post">

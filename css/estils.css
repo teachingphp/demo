@@ -1,0 +1,35 @@
+/*https://www.w3schools.com/css/default.asp*/
+
+body {
+    background-color: lightblue;
+  }
+
+
+  h1 {
+    color: purple;
+    text-align: center;
+  }
+
+
+p {
+    font-family: verdana;
+    font-size: 70px;
+  }
+
+  div{
+    background: linear-gradient(to top, #990000 50%, #cc00ff 100%);
+  }
+
+  input{
+    font-size: 50px;
+  }
+  
+  /*Estil aplicat a ID concret "usuari"*/
+  #usuari {
+    font-size: 100px;
+  }
+
+   /*Estil aplicat a classe concreta "tots_iguals"*/
+  .tots_iguals{
+    color: red;
+  }
