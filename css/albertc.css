@@ -9,11 +9,18 @@ h1{
     border: 10px solid rgb(255, 255, 255);
   padding: 25px 20px 20px 20px;
   background-color: lightblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'BasadaFx'
 }
 .content-inner {
     padding: 10px 100px 100%;
     }
     .content-inner {
     background-color: #ffffff;
+    }
+
+    @font-face {
+        font-family: 'BasadaFx';
+        src: url('../pagines/fonts/ferrum.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
     }
