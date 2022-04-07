@@ -27,6 +27,11 @@ body {
             font-size: 14px;
             text-align: left;
         }
+
+        img {
+
+            -webkit-box-reflect: right 925px;
+          }
     
   
 
