@@ -1,2 +1,19 @@
 /*https://www.w3schools.com/css/default.asp*/
-
+body{
+    background: #3b3939 none no-repeat scroll center center;
+    padding: 0px 40px 40px 40px;
+    cursor: url('../pagines/imatges/FantasmikoTest1.png'),auto;
+}
+h1{
+        width: 40%;
+    border: 10px solid black;
+  padding: 25px 20px 20px 20px;
+  background-color: lightblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.content-inner {
+    padding: 10px 100px 100%;
+    }
+    .content-inner {
+    background-color: #ffffff;
+    }
