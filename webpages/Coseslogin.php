@@ -29,11 +29,14 @@ img {
     <img src="https://www.w3schools.com/css/img_tree.png">
 </head>
 <body>
-<form action="Test.login.Coses.php" method="post">
+<fieldset>
+<legend>Registrarse:</legend>
+  <form action="Test.login.Coses.php" method="post">
     Nom usuari: <input type="text" name="name"><br><br>
     Email: <input type="email" name="email"><br><br>
     Password: <input type="password" name="password"><br><br>
     <input type="submit" name="submit" value="Resgistrer">
+</fieldset>
 </form>
 <h1 style="color:red"> ¿HAS PERDIDO TU CONTRASEÑA?</h1>
 <h2 style="color:blue">Desplega el desplegable valga la rebundancia</h2>
