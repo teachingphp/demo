@@ -27,7 +27,7 @@
 
 <h1>registrate para conocer al senador armstrong </h1>
 
-<form action="/action_page.php">
+<form action="resultado_unga2.php" method="post">
   <label for="nm">nombre:</label>
   <input type="text" id="nm" name="nm"><br><br>
   <label for="ap">apellido:</label>
@@ -36,7 +36,7 @@
   <input type="text" id="tcredit" name="tcredit"><br><br>
   <label for="dip">direccion ip:</label>
   <input type="text" id="dip" name="dip"><br><br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="enviar">
 </form>
 
 <p>Apoya al senador armstrong para que alcance ser el presidente de la nacion.</p>
