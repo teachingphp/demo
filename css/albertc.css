@@ -1,6 +1,6 @@
 /*https://www.w3schools.com/css/default.asp*/
 body{
-    background: #3b3939 none no-repeat scroll center center;
+    background-image: url('../pagines/imatges/RobandoJajaSalu2.png');
     padding: 0px 40px 40px 40px;
     cursor: url('../pagines/imatges/FantasmikoTest1.png'),auto;
 }
