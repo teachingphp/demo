@@ -18,6 +18,7 @@ h1{
     background-color: #ffffff;
     }
 
+    /*https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
     @font-face {
         font-family: 'BasadaFx';
         src: url('../pagines/fonts/ferrum.woff2') format('woff2');
