@@ -6,7 +6,7 @@
         <nav><ul>
         <li><a href="#">Inicio</a></li>
         <li><a href="http://localhost/demo/webpages/Cosesquiensomos.php">Quiénes somos</a></li>
-        <li><a href="#">Servicios</a></li>
+        <li><a href="https://americanhistory.si.edu/lighting/bios/photo2.htm#p22">Para mas info</a></li>
         <li><a href="#">Contactanos</a></li>
         <li><a href="http://localhost/demo/webpages/Coseslogin.php">Registrarse</a></li>
     </ul></nav>
