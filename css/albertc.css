@@ -9,7 +9,7 @@ h1{
     border: 10px solid rgb(255, 255, 255);
   padding: 25px 20px 20px 20px;
   background-color: lightblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'BasadaFx'
 }
 .content-inner {
     padding: 10px 100px 100%;
@@ -17,3 +17,42 @@ h1{
     .content-inner {
     background-color: #ffffff;
     }
+
+    /*https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
+    @font-face {
+        font-family: 'BasadaFx';
+        src: url('../pagines/fonts/ferrum.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+    button {
+        font-size: 16px;
+        color: #eee;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        padding: 15px;
+        border: none;
+        border-radius: 2px;
+        outline: none;
+        background: rgba(115, 67, 167, 0.8);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        opacity: 0.8;
+        cursor: pointer;
+        transition: all 0.4s ease-out;
+      }
+      
+      button.fade:hover {
+        opacity: 0.8;
+      }
+      
+      .fade {
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+      }
