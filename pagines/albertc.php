@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>  
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../css/albertc.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" type="text/css" href="./css/albertc.css?v=<?php echo time(); ?>">
         <script src="https://kit.fontawesome.com/50e196cf93.js" crossorigin="anonymous"></script>
         <title>Llegendari del Gamer</title>
     </head>
@@ -12,7 +12,7 @@
     -->  
         <h1>Llegendari del Gamer</h1>
         <audio id = "audio4" controls autoplay>
-          <source src="../pagines/audios/Ghost Master Ghoul Room.mp3" type="audio/mpeg">
+          <source src="./audios/Ghost Master Ghoul Room.mp3" type="audio/mpeg">
         </audio>
         
     </body>
