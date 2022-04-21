@@ -29,6 +29,7 @@
           font-size: 3.5rem;
         }
       }
+      
     </style>
 
     
@@ -78,26 +79,28 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../debug/1.PNG" class="d-block w-100" alt="..." width="100" height="500">
+      <img src="https://raw.githubusercontent.com/gwomacks/php-debug/master/screenshot.gif" class="d-block w-100" alt="..." width="100" height="500">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Veure variables</h5>
+        <p>Mentres debuguem podem visualitzar el valor de les variables locals.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../debug/1.PNG" class="d-block w-100" alt="..."width="100" height="500">
+      <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ksyrqcfdqcvgzsyk314r.gif" class="d-block w-100" alt="..."width="100" height="500">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Breakpoints</h5>
+        <p>Podem posar breakpoints on volguem al nostre programa y és on s'aturarà l'execució.</p>
       </div>
-    </div>
+      </div>
     <div class="carousel-item">
-      <img src="../debug/1.PNG" class="d-block w-100" alt="..."width="100" height="500">
+      <img src="https://miro.medium.com/max/1400/1*ORChGW7JAf1AOczJKLwcUw.gif" class="d-block w-100" alt="..."width="100" height="500">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Debuggar</h5>
+        <p>Podrem anar línea a línea comrpobant el funcionament del programa</p>
       </div>
     </div>
+
+    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,21 +123,21 @@
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
     -->
         <h2>PHP</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p>Lenguaje de programación de uso general que se adapta especialmente al desarrollo web.</p>
         <p><a class="btn btn-secondary" href="https://www.php.net/">Més detalls &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Xdebug_Logo.svg/1200px-Xdebug_Logo.svg.png" class="rounded-circle" alt="..." width="140" height="140">
 
         <h2>Xdebug</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p>Extensión de PHP que proporciona la capacidad de depuración código y errores.</p>
         <p><a class="btn btn-secondary" href="https://xdebug.org/">Més detalls &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" class="rounded-circle" alt="..." width="140" height="140">
 
         <h2>Visual Studio Code</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p>Es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. </p>
         <p><a class="btn btn-secondary" href="https://code.visualstudio.com/">Més detalls &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
@@ -335,7 +338,7 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2022–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 
