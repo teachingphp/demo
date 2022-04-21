@@ -26,7 +26,7 @@ img {
     <link rel="stylesheet" type="text/css" href="../css/CosesdecssE.css?v=<?php echo time();?>">
     <h1 style="text-align:center;">Bienvenido</h1>
     <h2 style="text-align:center;">CosasLogin.PHP</h2>
-    <img src="https://www.w3schools.com/css/img_tree.png">
+    <img src="https://www.w3schools.com/css/img_tree.png"width="200"100%>
 </head>
 <body>
 <fieldset>

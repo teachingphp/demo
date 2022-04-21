@@ -7,6 +7,7 @@
     <body>
         <!--https://www.w3schools.com/tags/ -->  
         <h1>La meva pàgina personal</h1>
+        <h2>Esto si es mi pagina</h2>
 
     </body>
 </html>
