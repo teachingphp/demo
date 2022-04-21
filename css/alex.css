@@ -1,7 +1,7 @@
 /*https://www.w3schools.com/css/default.asp*/
 body {
     background-color: lightblue;
-    cursor: url('../pagines/imatges/buodefinitivo.png'),auto;
+    cursor: url('../imatges/buodefinitivo.png'),auto;
 }
   .article
   {
@@ -43,7 +43,7 @@ body {
 
         .buo {
 
-            -webkit-box-reflect: right 1200px;
+            -webkit-box-reflect:right 1200%;
           }
 
         
