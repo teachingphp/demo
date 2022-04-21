@@ -18,7 +18,7 @@
     <body>    
     <!--https://www.w3schools.com/tags/ --> 
         
-        <img class = "buo" src="https://www.w3schools.com/css/img_tree.png"style="float:left">  
+        <img class = "buo" src="https://www.w3schools.com/css/img_tree.png"width="200"100%>  
         <h1>Benvingut A</h1>
         <h2>La meva pàgina personal</h2>
         <p>Aquesta es la meva primera paguina web estic treballant per avançar i poder millorar </p><br><br>
