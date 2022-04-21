@@ -57,7 +57,7 @@
     </p>
     <br>
     <p class="lead">
-      <a href="../debug/configuracio2.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Començar Tutorial</a>
+      <a href="./pol2.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Començar Tutorial</a>
     </p>
   </main>
 
