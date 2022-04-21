@@ -2,6 +2,11 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../css/andrea.css?v=<?php echo time(); ?>">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+  
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+       
         <title>Andrea</title>
     </head>
     <body>
@@ -47,344 +52,372 @@
 
         <h1>Juga a Tutti Frutti</h1>
 
-        <table>
-         <tr>
-            <th>Lletra</th>
-            <th>Nom</th>
-            <th>Animal</th>
-            <th>Lloc</th>
-            <th>Famós</th>
-            <th>Tv</th>
-            <th>Menjar</th>
-            <th>Marcas</th>
-            <th>Oficis</th>
-            <th>Puntació</th>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>kakjshj</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr><tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr><tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>wtf</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-        
+        <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Lletra</th>
+                <th>Nom</th>
+                <th>Animal</th>
+                <th>Lloc</th>
+                <th>Famós</th>
+                <th>TV</th>
+                <th>Menjar</th>
+                <th>Marcas</th>
+                <th>Oficis</th>
+                <th>Puntuació</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
+                
+            </tr>
+            
 
-        </table>
+            
+
+            </table>
+
+
+            <script type="text/javascript">
+                $(document).ready( function () {
+                    $('#example').DataTable();
+                } );
+            </script>   
 
     </body>
 </html>
