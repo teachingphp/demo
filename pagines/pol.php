@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Cover Template · Bootstrap v5.1</title>
+    <title>Tutorial Xdebug</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
 
@@ -57,7 +57,7 @@
     </p>
     <br>
     <p class="lead">
-      <a href="../debug/configuracio2.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Començar Tutorial</a>
+      <a href="./pol2.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Començar Tutorial</a>
     </p>
   </main>
 

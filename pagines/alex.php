@@ -5,10 +5,10 @@
         <title>Alex</title>
         <nav><ul>
         <li><a href="#">Inicio</a></li>
-        <li><a href="http://localhost/demo/webpages/Cosesquiensomos.php">Quiénes somos</a></li>
+        <li><a href="./webpages/Cosesquiensomos.php">Quiénes somos</a></li>
         <li><a href="https://americanhistory.si.edu/lighting/bios/photo2.htm#p22">Para mas info</a></li>
-        <li><a href="#">Contactanos</a></li>
-        <li><a href="http://localhost/demo/webpages/Coseslogin.php">Registrarse</a></li>
+        <li><a href="./webpages/Contactanos.php">Contactanos</a></li>
+        <li><a href="./webpages/Coseslogin.php">Registrarse</a></li>
     </ul></nav>
     </head>
 
@@ -18,7 +18,7 @@
     <body>    
     <!--https://www.w3schools.com/tags/ --> 
         
-        <img class = "buo" src="https://www.w3schools.com/css/img_tree.png"style="float:left">  
+        <img class = "buo" src="https://www.w3schools.com/css/img_tree.png"style="float:left"width="200"100%>  
         <h1>Benvingut A</h1>
         <h2>La meva pàgina personal</h2>
         <p>Aquesta es la meva primera paguina web estic treballant per avançar i poder millorar </p><br><br>
