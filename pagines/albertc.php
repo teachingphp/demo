@@ -2,19 +2,23 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../css/albertc.css?v=<?php echo time(); ?>">
-        <title>DibusAlbertLandia</title>
+        <title>Llegendari del Gamer</title>
     </head>
     <body>
         <!--https://www.w3schools.com/tags/ -->  
-        <h1>Benvinguts a DibusAlbertLandia</h1>
-        <audio id = "audio4" controls autoplay>
-  <source src="../recursos/Ghost Master Ghoul Room.mp3" type="audio/mpeg">
-</audio>
-<script type="text/javascript">
-    document.getElementById("audio4").style.visibility="hidden"
-</script>
+        <h1>Llegendari del Gamer</h1>
+        
+    
+   
+<div class="content-inner style=height:auto !important;">
+    <div class="DataEscrito">
+        <h2 class="DataHeader">
+            <span>Dijous, 14 d'Abril de 2022</span>
+        </h2>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="../recursos/FAutoplay.js"></script>
     </body>
 </html>
-
-<div class="content-inner style=height:auto !important;">
-</div>
