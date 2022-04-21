@@ -1,12 +1,12 @@
 
 body {
   background-color: lightblue;
-  cursor: url('../pagines/imatges/buo\ definitivo.png'),auto;
+  cursor: url('./imatges/buo definitivo.png'),auto;
 }
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: center ;
+  float: left;
   width: 180px;
 }
 
