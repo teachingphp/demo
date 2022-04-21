@@ -12,35 +12,20 @@
     -->  
         <h1>Llegendari del Gamer</h1>
         <audio id = "audio4" controls autoplay>
-  <source src="../pagines/audios/Ghost Master Ghoul Room.mp3" type="audio/mpeg">
-</audio>
-<button id="button">
-  <i class="fas fa-volume-up"></i>
-</button>
-<script type="text/javascript">
-    document.getElementById("audio4").style.visibility="hidden";
-    const button = document.querySelector("#button");
-const icon = document.querySelector("#button > i");
-const audio = document.querySelector("audio");
-
-button.addEventListener("click", () => {
-  if (audio.paused) {
-    audio.volume = 0.2;
-    audio.play();
-    icon.classList.remove('fa-volume-up');
-    icon.classList.add('fa-volume-mute');
-    
-  } else {
-    audio.pause();
-    icon.classList.remove('fa-volume-mute');
-    icon.classList.add('fa-volume-up');
-  }
-  button.classList.add("fade");
-});
-
-</script>
+          <source src="../pagines/audios/Ghost Master Ghoul Room.mp3" type="audio/mpeg">
+        </audio>
+        
     </body>
+    <button id="button">
+          <i class="fas fa-volume-up"></i>
+        </button>
 </html>
 
 <div class="content-inner style=height:auto !important;">
+<div class="DataTime">
+  <h2 class="HeadTime">
+    <span>Dijous, 21 d'Abril de 2022</span>
+  </h2>
 </div>
+</div>
+<script type="text/javascript" src="../recursos/FAutoplay.js"></script>
