@@ -12,7 +12,7 @@
     -->  
         <h1>Benvinguts a DibusAlbertLandia</h1>
         <audio id = "audio4" controls autoplay>
-  <source src="../recursos/Mario Party Miss Sound Effect.mp3" type="audio/mpeg">
+  <source src="../pagines/audios/Ghost Master Ghoul Room.mp3" type="audio/mpeg">
 </audio>
 <button id="button">
   <i class="fas fa-volume-up"></i>
