@@ -154,7 +154,7 @@
       </div>
       <!--<div class="col-md-5"> -->
         <div class="col-xl-auto">
-      <img  class="img-fluid" src="../debug/1.PNG" alt="..." >
+      <img  class="img-fluid" src="../recursos/1.PNG" alt="..." >
 
         <!--
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -170,7 +170,7 @@
         <p class="lead"> Dins el entorn de treball</p>
       </div>
       <div class="col-md-auto order-md-1">
-      <img class="img-fluid" src="../debug/2.PNG" alt="..." >
+      <img class="img-fluid" src="../recursos/2.PNG" alt="..." >
       </div>
     </div>
 
@@ -194,9 +194,9 @@
         <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="../debug/3.PNG" alt="..." >
+      <img class="img-fluid" src="../recursos/3.PNG" alt="..." >
       <br><br>
-      <img class="img-fluid" src="../debug/4.PNG" alt="..." >
+      <img class="img-fluid" src="../recursos/4.PNG" alt="..." >
 
       </div>
     </div>
@@ -209,7 +209,7 @@
         <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./5.PNG" alt="Paso 5">
+      <img class="img-fluid" src="../recursos/5.PNG" alt="Paso 5">
 
 
       </div>
@@ -222,7 +222,7 @@
         <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./6.PNG" alt="Paso 6">
+      <img class="img-fluid" src="../recursos/6.PNG" alt="Paso 6">
 
       </div>
     </div>
@@ -245,7 +245,7 @@
         <p class="lead"> En cas de no tenir res de Xdebug, posar totes les linies relacionades amb Xdebug, inclosa la [Xdebug]</p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./7.PNG" alt="Paso 7">
+      <img class="img-fluid" src="../recursos/7.PNG" alt="Paso 7">
 
       </div>
     </div>
@@ -270,7 +270,7 @@
         <p class="lead">I comprobem com efectivament el Xdebug s'ha instal·lat en la nostra màquina. </p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./8.PNG" alt="Paso 8">
+      <img class="img-fluid" src="../recursos/8.PNG" alt="Paso 8">
 
 
       </div>
@@ -283,7 +283,7 @@
         <p class="lead">Hauriem de veure una pàgina semblant aquesta si busquem amb ctrl+F xdebug </p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./9.PNG" alt="Paso 9">
+      <img class="img-fluid" src="../recursos/9.PNG" alt="Paso 9">
 
 
       </div>
@@ -297,7 +297,7 @@
         <p class="lead">Hauriem de veure una pàgina semblant aquesta si busquem amb ctrl+F xdebug </p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./10.PNG" alt="Paso 10">
+      <img class="img-fluid" src="../recursos/10.PNG" alt="Paso 10">
 
 
       </div>
@@ -310,7 +310,7 @@
         <p class="lead">Hauriem de veure una pàgina semblant aquesta si busquem amb ctrl+F xdebug </p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./11.PNG" alt="Paso 11">
+      <img class="img-fluid" src="../recursos/11.PNG" alt="Paso 11">
 
 
       </div>
@@ -323,7 +323,7 @@
         <p class="lead"> </p>
       </div>
       <div class="col-md-auto">
-      <img class="img-fluid" src="./12.PNG" alt="Paso 12">
+      <img class="img-fluid" src="../recursos/12.PNG" alt="Paso 12">
 
 
       </div>
