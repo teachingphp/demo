@@ -5,7 +5,7 @@
 
     </head>
     <body>
-    <img src="instagram.png">
+    <img src="../pagines/imatges/instagram.png">
 
 </body>
 </html>
