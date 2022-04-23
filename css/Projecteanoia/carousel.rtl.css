@@ -5,7 +5,7 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #97d49e;
 }
 
 
@@ -25,6 +25,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  color: #97d49e;
 }
 .carousel-item > img {
   position: absolute;
@@ -85,5 +86,6 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+    color:#97d49e;
   }
 }
