@@ -111,3 +111,7 @@ h2{
 p{
     color:rgb(7, 7, 17);
 }   
+
+.accordion-body {
+    background-color: rgb(252, 239, 59);
+}
