@@ -52,11 +52,43 @@ h1{
       
       .fade {
         opacity: 0.2;
+
+      }
+
+
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
         top: 0;
         left: 0;
         transform: translate(100%, 100%);
       }
-      h2.HeadTime {
+      h2.HeadTime, .Parag1 {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 25px;
+        font-size: 13px;
+      }
+
+      .Parag1 {
+        font-size: 15px;
+        width: 70%;
+      }
+
+      .Sidebar {
+        font-size: 15px;
+        width: 30%;
+      }
+
+  
+
+    
+      .column {
+        float: left;
+      }
+      
+      .left {
+        width: 70%;
+      }
+      
+      .right {
+        width: 25%;
       }
