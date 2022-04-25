@@ -11,7 +11,7 @@
     https://forum.freecodecamp.org/t/how-to-play-mp3-in-the-background-music-automatically/308554    
     -->  
         <h1>Llegendari del Gamer</h1>
-        <audio id = "audio4" controls autoplay>
+        <audio id = "audio4" controls autoplay loop>
           <source src="./audios/Ghost Master Ghoul Room.mp3" type="audio/mpeg">
         </audio>
         
@@ -22,10 +22,14 @@
 </html>
 
 <div class="content-inner style=height:auto !important;">
-<div class="DataTime">
-  <h2 class="HeadTime">
-    <span>Dijous, 21 d'Abril de 2022</span>
-  </h2>
-</div>
+  <div class="DataTime">
+    <h2 class="HeadTime">
+      <span>Dijous, 21 d'Abril de 2022</span>
+    </h2>
+  </div>
+  <br><br>
+  <div class="Parag1">
+  <p>Ghost Master is a realistic Oriental culture, 1V5 asymmetric competitive game launched by QL Studio. The game is based on the all-embracing traditional Oriental culture and designed to let players experience the charm of traditional Oriental strange culture, .</p>
+  </div>
 </div>
 <script type="text/javascript" src="../recursos/FAutoplay.js"></script>
