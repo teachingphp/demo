@@ -38,9 +38,9 @@
 <h2>11.- Executem test.php amb nomès la línea phpinfo();</h2>
 <img  src="./9.PNG" alt="Paso 9">
 <p>Hauriem de veure una pàgina semblant aquesta si busquem amb ctrl+F xdebug</p>
-<h2>Anem a les extensions i apretem el engranatge en l'extensió PHP Debug i anem a Configuració</h2>
+<h2>12.- Anem a les extensions i apretem el engranatge en l'extensió PHP Debug i anem a Configuració</h2>
 <img  src="./10.PNG" alt="Paso 10">
-<h2>12.- Configurem el fitxer settings.json afegint la línea (o modificant): </h2>
+<h2>13.- Configurem el fitxer settings.json afegint la línea (o modificant): </h2>
 <img  src="./11.PNG" alt="Paso 11">
 <h2>Si tot ha anat be ja hauria de funcionar correctament. Posa un breakpoint i prem F5 per debuggar </h2>
 <h2>Reiniciar Visual Studio Code i Apache si no funciona. </h2>

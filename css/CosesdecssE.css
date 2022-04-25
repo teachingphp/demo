@@ -1,19 +1,40 @@
 
 body {
   background-color: lightblue;
+  cursor: url('./imatges/buo definitivo.png'),auto;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
-h1 {
-  color: white;
-  text-align: center;
+div.gallery:hover {
+  border: 1px solid #777;
 }
 
-p {
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  font-size: 20px;
   font-family: verdana;
-  font-size: 100px;
+  text-align: left;
 }
 
-img {
+.b{
+  font-size: 20px;
+  font-family: verdana;
+  text-align: left;
 
-  -webkit-box-reflect: right 925px;
+}
+p
+{
+      font-family: verdana;
+        font-size: 14px;
+        text-align: left;
+
 }
