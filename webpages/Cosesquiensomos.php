@@ -1,6 +1,6 @@
 <html>
     <head>
-    <link rel="stylesheet" type="text/css" href="../css/CosasdecssE.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" type="text/css" href="../css/CosesdecssE.css?v=<?php echo time(); ?>">
     <title>Quiénes somos</title>
     </head>
     <body>
