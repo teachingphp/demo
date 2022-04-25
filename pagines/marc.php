@@ -12,7 +12,7 @@
         <hr>
         <br>
         <div class="gallery">
-  <a target="_PACO" href="https://pivigames.blog/drak-souls-i-en-espanol-online-steam/">
+  <a target="_Bloodborn" href="https://pivigames.blog/drak-souls-i-en-espanol-online-steam/">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbz5BHC32llUvVN5aNduR-Vlq3V9qqe2q17Q&usqp=CAU" alt="Mono" width="225" height="225">
   </a>
   <div class="desc">Este es <b >Paco</b> el desarollador de letras</div>
