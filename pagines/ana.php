@@ -6,7 +6,19 @@
     </head>
     <body>
         <!--https://www.w3schools.com/tags/ -->  
-        <h1><p class="p">La meva pàgina personal</h1>
-
+            <nav>
+    <a href="#">About</a>
+    <a href="#">Works</a>
+    <a href="#">Partners</a>
+    <a href="#">Price</a>
+    <a href="#">Contacts</a>
+    </nav>
+    <nav class = "nav2">
+    <a href="#">About</a>
+    <a href="#">Works</a>
+    <a href="#">Partners</a>
+    <a href="#">Price</a>
+    <a href="#">Contacts</a>
+    </nav>
     </body>
 </html>

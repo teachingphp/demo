@@ -11,12 +11,16 @@
     https://forum.freecodecamp.org/t/how-to-play-mp3-in-the-background-music-automatically/308554    
     -->  
         <h1>Benvinguts a DibusAlbertLandia</h1>
-        <audio id = "audio4" controls autoplay>
+        <audio loop id = "audio4" controls autoplay>
   <source src="../recursos/Mario Party Miss Sound Effect.mp3" type="audio/mpeg">
 </audio>
-<button id="button">
+<div class="sticky"><button id="button">
   <i class="fas fa-volume-up"></i>
-</button>
+</button></div>
+<div class="content-inner style=height:auto !important;">
+
+
+</div>
 <script type="text/javascript">
     document.getElementById("audio4").style.visibility="hidden";
     const button = document.querySelector("#button");
@@ -39,8 +43,7 @@ button.addEventListener("click", () => {
 });
 
 </script>
+
     </body>
 </html>
 
-<div class="content-inner style=height:auto !important;">
-</div>
