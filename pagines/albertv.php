@@ -4,6 +4,8 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../css/albertv.css?v=<?php echo time(); ?>">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <title>AlbertV</title>
     </head>
     <body>
@@ -11,14 +13,13 @@
         <div id="grad1">
             <h1>One piece</h1>
         </div>
-        <p></p>       
-
+        
         <!--Manga-->
         <header>
         <h2>Manga</h2>  
         </header>
         <details>
-            <summary >Despliega informacion </summary>
+            <summary></summary>
             <section>   
             <article>
                 <h2>Descripció</h2>
@@ -40,7 +41,7 @@
         <h2>Anime</h2>
         </header>
         <details>
-            <summary >Despliega informacion </summary>
+            <summary></summary>
             <section>   
             <article>
                 <h2>Descripció</h2>
@@ -62,7 +63,7 @@
         <h2>Wiki</h2>
         </header>
         <details>
-            <summary >Despliega informacion </summary>
+            <summary></summary>
             <section>   
             <article>
                 <h2>Descripció</h2>
@@ -83,7 +84,7 @@
         <h2>Fons d'escriptori</h2>
         </header>
         <details>
-            <summary >Despliega informacion </summary>
+            <summary></summary>
             <section>   
             <article>
                 <h2>Descripció</h2>
@@ -105,7 +106,7 @@
         <h2>Canals de youtube</h2>
         </header>
         <details>
-            <summary >Despliega informacion </summary>
+            <summary></summary>
             <section>   
             <article>
                 <h2>Descripció</h2>
