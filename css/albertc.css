@@ -1,8 +1,8 @@
 /*https://www.w3schools.com/css/default.asp*/
 body{
-    background-image: url('../imatges/RobandoJajaSalu2.png');
+    background-image: url('../pagines/imatges/RobandoJajaSalu2.png');
     padding: 0px 40px 40px 40px;
-    cursor: url('../imatges/FantasmikoTest1.png'),auto;
+    cursor: url('../pagines/imatges/FantasmikoTest1.png'),auto;
 }
 h1{
         width: 30%;
@@ -22,7 +22,7 @@ h1{
     /*https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
     @font-face {
         font-family: 'BasadaFx';
-        src: url('../fonts/ferrum.woff2') format('woff2');
+        src: url('../pagines/fonts/ferrum.woff2') format('woff2');
         font-weight: normal;
         font-style: normal;
     }

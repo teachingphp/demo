@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>  
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./css/albertc.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" type="text/css" href="../css/albertc.css?v=<?php echo time(); ?>">
         <script src="https://kit.fontawesome.com/50e196cf93.js" crossorigin="anonymous"></script>
         <title>Llegendari del Gamer</title>
     </head>
