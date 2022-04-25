@@ -48,21 +48,47 @@
     <select class="form-select" aria-label="Default select example" id="select_1">
         <option selected>Seleccione la pizza</option>
         <option value="1">Margarita</option>
-        <option value="2">Carboara</option>
+        <option value="2">Carbonara</option>
         <option value="3">Pepperoni</option>
         <option value="4">Barbacoa</option>
         <option value="5">4 Quesos</option>
         <option value="6">4 Estaciones</option>
       </select>
 
+      <?php 
+            $db = new SQLite3('mydb.sq3');
+            $sql = "SELECT * FROM ingredients_pizza WHERE nom_pizza = $pizza_seleccionada";
+            $result = $db->query($sql);
+            while ($row = $result->fetchArray(SQLITE3_ASSOC)){
+              echo $row['nom_pizza'] . ': $' . $row['ingredient'] . '<br/>';
+            }
+            unset($db);
+            
+            ?>
       <script>
-        document.getElementById("select_1").addEventListener("click", displayDate);
-        
-        function displayDate() {
-        console.log(document.getElementById("select_1").value);  
+        document.getElementById("select_1").addEventListener("click", nomPizza);
+        function nomPizza() {
+          $pizza_seleccionada = document.getElementById("select_1").value;
         }
         </script>
 <br>
+<select id="example-getting-started" multiple="multiple">
+  <option value="cheese">Cheese</option>
+  <option value="tomatoes">Tomatoes</option>
+  <option value="mozarella">Mozzarella</option>
+  <option value="mushrooms">Mushrooms</option>
+  <option value="pepperoni">Pepperoni</option>
+  <option value="onions">Onions</option>
+</select>
+<!-- Initialize the plugin: -->
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#example-getting-started').multiselect();
+  });
+</script>
+
+
+
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
         <label class="form-check-label" for="flexCheckChecked">
