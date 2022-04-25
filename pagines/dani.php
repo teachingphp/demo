@@ -20,7 +20,17 @@
         <br><br>
         <details>
         <summary>Nivel humano 1-C:</summary>
+         <!--<img class="emoji" src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png"style="float:left;width:42px;height:42px;">--->
         <h2>Nivel humano 1-C:</h2>
+        <div class = "tablecl">
+        <table>
+        <tr class="tr">
+        <th><img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png" width="42px" height="42px"></th>
+        <th><p class="p">Nivel humano 1-C:</p></th>
+        <th><img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png" width="42px" height="42px"></th>
+        </tr>
+</table>
+</div>
 
 <p>Personajes capaces de ejercer una fuerza comparable a la de los humanos que están por debajo de la norma promedio en términos de fuerza, como niños pequeños o personas enfermas, así como animales más pequeños como gatos y perros.</p>
 <img src="https://www.soyvisual.org/sites/default/files/styles/facebook_og/public/images/photos/debil.jpg?itok=78ndLLdQ" alt="debil" width="600" height="300" class="center">
@@ -34,8 +44,8 @@
 <h2>Nivel sobrehumano 1-C:</h2>
 <p>Aquellos cuya fuerza se encuentra en el humbral de las capacidades humanas, siendo el mayor exponente atletas de nivel olímpico o artistas marciales rigurosamente entrenados, así como por animales más grandes.  </p>
 <img src="https://areajugones.sport.es/wp-content/uploads/2015/11/3069068-1096586437-scott.jpg" alt="fuerte" width="600" height="300" class="center">
-<h2>Chapter 5</h2>
-<p>This chapter explains ba bla bla</p>
+<h2>Nivel sobrehumano 2-C:</h2>
+<p></p>
 
 <h2>Chapter 6</h2>
 <p>This chapter explains ba bla bla</p>
