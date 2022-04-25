@@ -31,7 +31,7 @@
 
   <div class="row">
   <div class="column left"><p>Ghost Master is a realistic Oriental culture, 1V5 asymmetric competitive game launched by QL Studio. The game is based on the all-embracing traditional Oriental culture and designed to let players experience the charm of traditional Oriental strange culture, .</p></div>
-  <div class="column right"><p>Hola</p></div>
+  <div class="column right"><p></p></div>
 </div>
 </div>
 <script type="text/javascript" src="../recursos/FAutoplay.js"></script>
