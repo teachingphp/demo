@@ -1,2 +1,95 @@
 /*https://www.w3schools.com/css/default.asp*/
+body {
+        background-color: #E6E6FA;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 
+h1 {
+    color: rgb(81, 87, 82);
+    text-align: center;
+}
+h1{
+  width: 100%;
+border: 1px solid rgb(0, 0, 0);
+background-color: rgb(209, 211, 235);
+font-family:'BasadaFx';
+border-radius: 12px;
+align-self: center;
+}
+
+p {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 50px;
+}
+p.round1 {
+    font-family:"Courier", monospace;
+    margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 38px;
+  text-align: justify;
+  text-align: center;
+  color: rgb(81, 87, 82);
+}
+p.round2 {
+    margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 38px;
+  text-align: justify;
+  text-align: center;
+  color: rgb(81, 87, 82);
+}
+
+p.round3 {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 2rem;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+    
+}
+p.round4 {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 30px;
+    text-align: justify;
+  text-align: center;
+  color: rgb(81, 87, 82);
+}
+  
+ul.a {
+ list-style-type: circle;
+}
+
+nav a{
+  text-decoration:none;
+  color:inherit;
+  font-size:20px;
+  } 
+  nav li{
+  display:inline-block;
+  width:10%;
+  padding:10px 60px 10px 60px;
+  background-color:rgb(250, 229, 179);
+  border:1px solid #000;
+  border-radius: 12px;
+  text-align:center;
+  color:#000;
+  text-align:center;
+  }
+  nav li:hover{
+  background-color:#fff;
+  color:#000;
+  }
+  hr {
+    display:block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px; 
+
+  }

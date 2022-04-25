@@ -4,7 +4,7 @@
     <style>
     #grad1 {
         height: 40px;
-        width: 500px;
+        width: 50%;
         background-color: blue; /* For browsers that do not support gradients */
         background-image: linear-gradient(purple, Violet);
     }
