@@ -4,15 +4,41 @@ body{
 
 }
 h1{
-    color:red
+    color:white;
+    font-size: 30px;
+    font-family:monospace
+
 }
  h2 {
-        color: rgb(241, 176, 176);
+        color:darkturquoise;
         text-align:center;
-        font-size: 50px;
+        font-size: 40px;
+        font-family:Georgia, 'Times New Roman', Times, serif
     }
 .pollo{
-    color:greenyellow;
+    color:rgb(255, 130, 47);
         text-align:center;
-        font-size: 50px;
+        font-size: 35px;
+        font-family:cursive;
 }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    font-size: 20px;
+    font-family: verdana;
+    text-align: left;
+  }
