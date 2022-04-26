@@ -2,6 +2,11 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../css/andrea.css?v=<?php echo time(); ?>">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+  
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+       
         <title>Andrea</title>
     </head>
     <body>
@@ -47,344 +52,82 @@
 
         <h1>Juga a Tutti Frutti</h1>
 
-        <table>
-         <tr>
-            <th>Lletra</th>
-            <th>Nom</th>
-            <th>Animal</th>
-            <th>Lloc</th>
-            <th>Famós</th>
-            <th>Tv</th>
-            <th>Menjar</th>
-            <th>Marcas</th>
-            <th>Oficis</th>
-            <th>Puntació</th>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>kakjshj</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr><tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr><tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>wtf</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-            <td>$100</td>
-         </tr>
-        
+        <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Lletra</th>
+                <th>Nom</th>
+                <th>Animal</th>
+                <th>Lloc</th>
+                <th>Famós</th>
+                <th>TV</th>
+                <th>Menjar</th>
+                <th>Marcas</th>
+                <th>Oficis</th>
+                <th>Puntuació</th>
+            </tr>
+        </thead>
+        <tbody>
+        <?php
+            $I=1;
+            WHILE ($I<= 27) {
 
-        </table>
+
+           ECHO "<tr>";
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input type="text"  value=""></td>';
+                
+           ECHO "</tr>";
+            $I=$I +1;
+            }
+        ?>     
+             <tr>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                <td><input type="text"  value=""></td>
+                
+            </tr>    
+    
+            </table>
+
+            <script type="text/javascript">
+                $(document).ready( function () {
+                    $('#example').DataTable();
+                } );
+            </script>   
+
+        <input type="submit" name="submit" value="Generar lletra" onclick= "mostrar()">
+
+       <label id = "text_lletra" style = "display:none"> 
+            <strong></strong><br/>
+            </label>
+
+
+
+        <script type="text/javascript">
+        function mostrar(){
+            var primera_lletra = String.fromCharCode(97+Math.floor(Math.random() * 26))
+            console.log (primera_lletra);
+            var text_anterior = "La letra aleatoria generada es:";
+            $("#text_lletra").text(text_anterior + primera_lletra);
+            $("#text_lletra").show();
+        }
+    </script>   
 
     </body>
 </html>

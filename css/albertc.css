@@ -1,0 +1,97 @@
+<<<<<<< HEAD
+=======
+/*https://www.w3schools.com/css/default.asp*/
+body{
+    background-image: url('../pagines/imatges/RobandoJajaSalu2.png');
+    padding: 0px 40px 40px 40px;
+    cursor: url('../pagines/imatges/FantasmikoTest1.png'),auto;
+}
+h1{
+        width: 30%;
+    border: 10px solid rgb(255, 255, 255);
+  padding: 25px 20px 20px 20px;
+  background-color: lightblue;
+    font-family:'BasadaFx';
+    font-size: 47px;
+}
+.content-inner {
+    padding: 10px 100px 100%;
+    }
+    .content-inner {
+    background-color: #ffffff;
+    }
+
+    /*https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
+    @font-face {
+        font-family: 'BasadaFx';
+        src: url('../pagines/fonts/ferrum.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+    button {
+        font-size: 16px;
+        color: #eee;
+        position: sticky;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        padding: 15px;
+        border: none;
+        border-radius: 2px;
+        outline: none;
+        background: rgba(115, 67, 167, 0.8);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        opacity: 0.8;
+        cursor: pointer;
+        transition: all 0.4s ease-out;
+      }
+      
+      button.fade:hover {
+        opacity: 0.8;
+      }
+      
+      .fade {
+        opacity: 0.2;
+
+      }
+
+
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        left: 0;
+        transform: translate(100%, 100%);
+      }
+      h2.HeadTime, .Parag1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+      }
+
+      .Parag1 {
+        font-size: 15px;
+        width: 70%;
+      }
+
+      .Sidebar {
+        font-size: 15px;
+        width: 30%;
+      }
+
+  
+
+    
+      .column {
+        float: left;
+      }
+      
+      .left {
+        width: 70%;
+      }
+      
+      .right {
+        width: 25%;
+      }
+>>>>>>> 13c1fce4c65cd6a2885f6b68abf477bc9ccbb300
