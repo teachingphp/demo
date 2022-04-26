@@ -89,7 +89,7 @@ if ($mysqli -> connect_errno) {
         $ruta = "https://github.com/".$value["AVATAR"] .".png";
         $alumne = '
         <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-        <img  alt="Putos" width="32" height="32" class="rounded-circle flex-shrink-0src="'.$ruta.'" </img>
+        <img  alt="Putos" width="32" height="32" class="rounded-circle flex-shrink-0 src="'.$ruta.'" </img>
 
         
         <div class="d-flex gap-2 w-100 justify-content-between">
