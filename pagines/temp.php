@@ -3,8 +3,6 @@
 <fieldset>
 <legend>Time:</legend>
 <?php
-echo "Holeee";
-
 
 
 
