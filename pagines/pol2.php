@@ -34,7 +34,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="/css/estiloPol2.css?v=<?php echo time(); ?>" rel="stylesheet">
+    <link href="../css/estiloPol2.css?v=<?php echo time(); ?>" rel="stylesheet">
   </head>
   <body>
     
