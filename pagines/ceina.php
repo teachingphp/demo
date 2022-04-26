@@ -1,7 +1,7 @@
 <!doctype html>
 <?php
 $host= "localhost";
-$database = "phpceina";
+$database = "testtrivial";
 $username = "root";
 $password = "";
  
@@ -14,7 +14,7 @@ if ($mysqli -> connect_errno) {
     die("Connection failed: " . $mysqli -> connect_error);
 }else{
     //echo 'Connected successfully';
-    $sql = "SELECT id_alumne, nom, avatar FROM alumnes ORDER BY nom";
+    $sql = "SELECT IDALUM, NOM, AVATAR FROM alumnes ORDER BY IDALUM ";
     $result = $mysqli -> query($sql);
     
     //$result -> fetch_array(MYSQLI_ASSOC);
@@ -158,13 +158,13 @@ if ($mysqli -> connect_errno) {
 
       <?php
         foreach($result as $value){
-        $ruta = "https://github.com/".$value["avatar"] .".png";
+        $ruta = "https://github.com/".$value["AVATAR"] .".png";
         $alumne = '
         <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'.$ruta.'" </img>
 
-        <h2>'.$value["nom"].'</h2>
-        <p>'.$value["id_alumne"].'</p>
+        <h2>'.$value["NOM"].'</h2>
+        <p>'.$value["IDALUM"].'</p>
         <p><a class="btn btn-secondary" href="#">Veure perfil &raquo;</a></p>
       </div>';
         echo $alumne;
