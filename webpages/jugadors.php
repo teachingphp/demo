@@ -1,4 +1,30 @@
 <!doctype html>
+<?php
+$host= "localhost";
+$database = "testtrivial";
+$username = "root";
+$password = "";
+ 
+// Create connection
+$conn = mysqli_connect($host, $username, $password, $database);
+$mysqli = new mysqli($host,$username,$password,$database);
+ 
+// Check connection
+if ($mysqli -> connect_errno) {
+    die("Connection failed: " . $mysqli -> connect_error);
+}else{
+    //echo 'Connected successfully';
+    $sql = "SELECT IDALUM, NOM, AVATAR FROM alumnes ORDER BY IDALUM ";
+    $result = $mysqli -> query($sql);
+    
+    //$result -> fetch_array(MYSQLI_ASSOC);
+    foreach ($result as $value){
+      //print_r ($value, false);
+    }
+    
+}
+
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -55,11 +81,33 @@
     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
   </symbol>
 </svg>
-
+ 
 <div class="list-group">
+  <?php
+        foreach($result as $value){
+        $ruta = "https://github.com/".$value["AVATAR"] .".png";
+        $alumne = '
+        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+        <img  alt="Putos" width="32" height="32" class="rounded-circle flex-shrink-0src="'.$ruta.'" </img>
+
+        
+        <div class="d-flex gap-2 w-100 justify-content-between">
+     
+      <div>
+        <h6 class="mb-0">'.$value["NOM"].'</h6>
+        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
+      </div>
+      <small class="opacity-50 text-nowrap">'.$value["IDALUM"].'</small>
+    </div>
+  </a>
+      </div>';
+        echo $alumne;
+      }
+      ?>
   <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
     <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
     <div class="d-flex gap-2 w-100 justify-content-between">
+     
       <div>
         <h6 class="mb-0">Nom del praticipant</h6>
         <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
