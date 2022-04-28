@@ -75,30 +75,30 @@
         <tbody>
         <?php
             $I=1;
-            $columna = 1;
+            
             WHILE ($I<= 27) {
 
-
+            $columna = 1;
            ECHO "<tr>";
            ECHO     '<td><input id = "'. $I . $columna.'" type="text"  value=""></td>';
-           $columa = 2;
+           $columna = 2;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 3;
+           $columna = 3;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 4;
+           $columna = 4;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 5;
+           $columna = 5;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 6;
+           $columna = 6;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 7;
+           $columna = 7;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 8;
+           $columna = 8;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 9;
+           $columna = 9;
            ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
-           $columa = 10;
-           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 10;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value="0"></td>';
                 
            ECHO "</tr>";
             $I=$I +1;
@@ -147,8 +147,23 @@
         }
 
         function calcular(){
-            alert($("#110").text());
-            $("#total").text("325");
+            //alert(document.getElementById("110").value);
+            var total = parseInt(document.getElementById("110").value) + parseInt(document.getElementById("210").value) +
+            parseInt(document.getElementById("310").value) + parseInt(document.getElementById("410").value) + 
+            parseInt(document.getElementById("510").value) + parseInt(document.getElementById("610").value) +
+            parseInt(document.getElementById("710").value) + parseInt(document.getElementById("810").value) +
+            parseInt(document.getElementById("910").value) + parseInt(document.getElementById("1010").value) +
+            parseInt(document.getElementById("1110").value) + parseInt(document.getElementById("1210").value) + 
+            parseInt(document.getElementById("1310").value) + parseInt(document.getElementById("1410").value) +
+            parseInt(document.getElementById("1510").value) + parseInt(document.getElementById("1610").value) +
+            parseInt(document.getElementById("1710").value) + parseInt(document.getElementById("1810").value) +
+            parseInt(document.getElementById("1910").value) + parseInt(document.getElementById("2010").value) + 
+            parseInt(document.getElementById("2110").value) + parseInt(document.getElementById("2210").value) +
+            parseInt(document.getElementById("2310").value) + parseInt(document.getElementById("2410").value) +
+            parseInt(document.getElementById("2510").value) + parseInt(document.getElementById("2610").value) +
+            parseInt(document.getElementById("2710").value); 
+
+            $("#total").text(total);
             $("#total").show();
         }
     </script>   

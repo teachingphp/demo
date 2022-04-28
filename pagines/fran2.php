@@ -5,10 +5,13 @@
     <body style="background-image: url(./imatges/Arcane2.jpg);"> 
   <font-family> 
     <div class="boxes">
+      <form action="./FranHistoria.php">
   <button>Historia</button>
+      </form> <form action="./FranPersonajes.php">
   <button>Personajes</button>
-  <button>Ciudades</button>
+  </form> <form action="./FranCuriosidades.php">
   <button>Curiosidades</button>
+  </form>
 </div>
 </font-family>
 </body>
