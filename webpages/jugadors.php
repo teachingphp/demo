@@ -84,6 +84,7 @@ if ($mysqli -> connect_errno) {
 
  
 <div class="list-group holi">
+  <h1 class= "city">Taula de jugadors </h1>
   <?php
         foreach($result as $value){
         $ruta = "https://github.com/".$value["AVATAR"] .".png";
@@ -110,7 +111,7 @@ if ($mysqli -> connect_errno) {
     <div class="b-example-divider"></div>
   
 
-
+    <h1 class= "city">Taula de Rankings </h1>
 <div class="list-group holi2">
   <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
     <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
