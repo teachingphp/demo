@@ -83,7 +83,7 @@ if ($mysqli -> connect_errno) {
 </svg>
 
  
-<div class="list-group">
+<div class="list-group holi">
   <?php
         foreach($result as $value){
         $ruta = "https://github.com/".$value["AVATAR"] .".png";
@@ -100,51 +100,23 @@ if ($mysqli -> connect_errno) {
       </div>
       <small class="opacity-50 text-nowrap">'.$value["IDALUM"].'</small>
    
-      </div>';
+      </div>
+      </a>';
         echo $alumne;
       }
       ?>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-     
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">now</small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">3d</small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">1w</small> 
-    </div>
-  </a>
-</div>
-  <br><br>
-<div class="b-example-divider"></div>
+      </div><br><br>
+      
+    <div class="b-example-divider"></div>
+  
 
-<div class="list-group">
+
+<div class="list-group holi2">
   <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
     <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
     <div class="d-flex gap-2 w-100 justify-content-between">
       <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
+        <h6 class="mb-0">Nom del praticipant per a ranking</h6>
         <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
       </div>
       <small class="opacity-50 text-nowrap">now</small>
@@ -154,24 +126,15 @@ if ($mysqli -> connect_errno) {
     <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
     <div class="d-flex gap-2 w-100 justify-content-between">
       <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">3d</small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
+        <h6 class="mb-0">Nom del praticipant per a ranking </h6>
         <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
       </div>
       <small class="opacity-50 text-nowrap">1w</small> 
     </div>
-  </a>
+  </a><br><br>
+  
 </div>
-  <br><br>
+
 <div class="b-example-divider"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
