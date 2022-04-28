@@ -7,6 +7,8 @@
   
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
        
+        <!-- CSS only -->
+
         <title>Andrea</title>
     </head>
     <body>
@@ -52,6 +54,9 @@
 
         <h1>Juga a Tutti Frutti</h1>
 
+
+
+
         <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
@@ -70,36 +75,47 @@
         <tbody>
         <?php
             $I=1;
+            $columna = 1;
             WHILE ($I<= 27) {
 
 
            ECHO "<tr>";
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
-           ECHO     '<td><input type="text"  value=""></td>';
+           ECHO     '<td><input id = "'. $I . $columna.'" type="text"  value=""></td>';
+           $columa = 2;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 3;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 4;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 5;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 6;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 7;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 8;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 9;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columa = 10;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
                 
            ECHO "</tr>";
             $I=$I +1;
             }
-        ?>     
-             <tr>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
-                <td><input type="text"  value=""></td>
+        ?>      
+           
+           <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style = "text-align:center"><strong><button type="button" onclick= "calcular()">Calcula resultado</button></strong></td>
+                <td><label id = "total" style = "display:none"> </td>
                 
             </tr>    
     
@@ -107,7 +123,7 @@
 
             <script type="text/javascript">
                 $(document).ready( function () {
-                    $('#example').DataTable();
+                    //$('#example').DataTable();
                 } );
             </script>   
 
@@ -126,6 +142,14 @@
             var text_anterior = "La letra aleatoria generada es:";
             $("#text_lletra").text(text_anterior + primera_lletra);
             $("#text_lletra").show();
+
+           
+        }
+
+        function calcular(){
+            alert($("#110").text());
+            $("#total").text("325");
+            $("#total").show();
         }
     </script>   
 
