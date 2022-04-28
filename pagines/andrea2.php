@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>  
 <html>
     <head>
-        <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">-->
         <link rel="stylesheet" type="text/css" href="../css/andrea.css?v=<?php echo time(); ?>">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
-  
-        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
        
         <title>Andrea</title>
     </head>
@@ -408,12 +404,13 @@
                 <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
                 
             </tr>
-
             
 
             </tbody>
             </table>
 
+<<<<<<< HEAD
+=======
 
             <script type="text/javascript">
                 $(document).ready( function () {
@@ -439,6 +436,7 @@
         }
     </script>  
 
+>>>>>>> 13c1fce4c65cd6a2885f6b68abf477bc9ccbb300
     </body>
 </html>
 
