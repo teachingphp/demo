@@ -18,125 +18,127 @@
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h2>Manga</h2>
-                </button>       
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h2>Manga</h2>
+                    </button>       
                 </h2>     
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                <section>   
-                    <article>
-                        <h2>Descripció</h2>
-                        <p>Algunes pagines webs on pots llegir el manga:</p>
-                    </article>
-                    <nav-img></nav-img>
-                    <nav>
-                        <ul>
-                        <li>Catala: <a href="https://manga.fansubs.cat/serialitzats/one-piece">https://manga.fansubs.cat/serialitzats/one-piece</a></li>
-                        <li>Castella: <a href="https://inmanga.com/ver/manga/One-Piece/1045/e7b5181b-7003-4812-9bed-dec39d51c9c0">https://inmanga.com/ver/manga/One-Piece/1045/e7b5181b-7003-4812-9bed-dec39d51c9c0</a></li>
-                        <li>Angles: <a href="https://mangaplus.shueisha.co.jp/titles/100020">https://mangaplus.shueisha.co.jp/titles/100020</a></li>
-                        </ul>
-                    </nav>
-                    </section>
-                </div>
+                <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <section>   
+                            <article>
+                                <h2>Descripció</h2>
+                                <p>Algunes pagines webs on pots llegir el manga:</p>
+                            </article>
+                            <nav-imgmanga></nav-imgmanga>
+                            <nav>
+                                <ul>
+                                <li>Catala: <a href="https://manga.fansubs.cat/serialitzats/one-piece">https://manga.fansubs.cat/serialitzats/one-piece</a></li>
+                                <li>Castella: <a href="https://inmanga.com/ver/manga/One-Piece/1045/e7b5181b-7003-4812-9bed-dec39d51c9c0">https://inmanga.com/ver/manga/One-Piece/1045/e7b5181b-7003-4812-9bed-dec39d51c9c0</a></li>
+                                <li>Angles: <a href="https://mangaplus.shueisha.co.jp/titles/100020">https://mangaplus.shueisha.co.jp/titles/100020</a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <h2>Anime</h2>
-                </button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h2>Anime</h2>
+                    </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <section>   
-                        <article>
-                            <h2>Descripció</h2>
-                            <p>Algunes pagines webs on pots veure l'Anime:</p>
-                        </article>
-                        <nav-img1></nav-img1>
-                        <nav>
-                            <ul>
-                            <li>Flvanime: <a href="https://www3.animeflv.net/anime/one-piece-tv">https://www3.animeflv.net/anime/one-piece-tv</a></li>
-                            <li>Jkanime: <a href="https://www5.jkanime.video/one-piece-tv">https://www5.jkanime.video/one-piece-tv</a></li>
-                            <li>Crunchyroll: <a href="https://www.crunchyroll.com/es-es/one-piece">https://www.crunchyroll.com/es-es/one-piece</a></li>
-                            </ul>
-                        </nav>
-                    </section>
-                </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h2>Wiki</h2>
-                </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                <section>   
-                    <article>
-                        <h2>Descripció</h2>
-                        <p>Tota l'informacio de la sèrie:</p>
-                    </article>
-                    <nav>
-                        <ul>
-                        <li>OnePieceWiki: <a href="https://onepiece.fandom.com/es/wiki/One_Piece_Wiki">https://onepiece.fandom.com/es/wiki/One_Piece_Wiki</a></li>
-                        <li>Wikipedia: <a href="https://es.wikipedia.org/wiki/One_Piece">https://es.wikipedia.org/wiki/One_Piece</a></li>
-                        <li>Aficionados: <a href="https://www.superaficionados.com/arcos-sagas-anime-one-piece">https://www.superaficionados.com/arcos-sagas-anime-one-piece</a></li>
-                        </ul>
-                    </nav>
-                    </section>
-                </div>
+                    <div class="accordion-body">
+                        <section>   
+                            <article>
+                                <h2>Descripció</h2>
+                                <p>Algunes pagines webs on pots veure l'Anime:</p>
+                            </article>
+                            <nav-imganime></nav-imganime>
+                            <nav>
+                                <ul>
+                                <li>Flvanime: <a href="https://www3.animeflv.net/anime/one-piece-tv">https://www3.animeflv.net/anime/one-piece-tv</a></li>
+                                <li>Jkanime: <a href="https://www5.jkanime.video/one-piece-tv">https://www5.jkanime.video/one-piece-tv</a></li>
+                                <li>Crunchyroll: <a href="https://www.crunchyroll.com/es-es/one-piece">https://www.crunchyroll.com/es-es/one-piece</a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h2>Fons d'escriptori</h2>
-                </button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h2>Wiki</h2>
+                    </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <section>   
-                        <article>
-                            <h2>Descripció</h2>
-                            <p>Algunes pagines webs on pots trobar fons d'escriptori tant per pc com per mobil:</p>
-                        </article>
-                        <nav>
-                            <ul>
-                            <li><a href="https://www.besthdwallpaper.com/cerca?q=one+piece">https://www.besthdwallpaper.com/cerca?q=one+piece</a></li>
-                            <li><a href="https://www.pngwing.com/ca/search?q=one+piece">https://www.pngwing.com/ca/search?q=one+piece</a></li>
-                            <li><a href="#">Tokyo</a></li>
-                            </ul>
-                        </nav>
-                    </section>
-                    </section>
-                </div>
+                    <div class="accordion-body">
+                        <section>   
+                            <article>
+                                <h2>Descripció</h2>
+                                <p>Tota l'informacio de la sèrie:</p>
+                            </article>
+                            <nav-imgwiki style="width:100%"></nav-imgwiki>
+                            <nav>
+                                <ul>
+                                <li>OnePieceWiki: <a href="https://onepiece.fandom.com/es/wiki/One_Piece_Wiki">https://onepiece.fandom.com/es/wiki/One_Piece_Wiki</a></li>
+                                <li>Wikipedia: <a href="https://es.wikipedia.org/wiki/One_Piece">https://es.wikipedia.org/wiki/One_Piece</a></li>
+                                <li>Aficionados: <a href="https://www.superaficionados.com/arcos-sagas-anime-one-piece">https://www.superaficionados.com/arcos-sagas-anime-one-piece</a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h2>Canals de youtube</h2>
-                </button>
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h2>Fons d'escriptori</h2>
+                    </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                <section>   
-                <article>
-                        <h2>Descripció</h2>
-                        <p>Alguns canals de youtube que parlen de l'obra i de teories:</p>
-                    </article>
-                    <nav>
-                        <ul>
-                        <li><a href="#">https://inmanga.com/ver/manga/One-Piece/1045/e7b5181b-7003-4812-9bed-dec39d51c9c0</a></li>
-                        <li><a href="#">Paris</a></li>
-                        <li>Pagina web tutorial desplegables: <a href="https://www.silocreativo.com/details-summary-elementos-desplegables-ocultos-html/">https://www.silocreativo.com/details-summary-elementos-desplegables-ocultos-html/</a></li>
-                        </ul>
-                    </nav>
-                </section>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <section>   
+                            <article>
+                                <h2>Descripció</h2>
+                                <p>Algunes pagines webs on pots trobar fons d'escriptori tant per pc com per mobil:</p>
+                            </article>
+                            <nav-imgfons></nav-imgfons>
+                            <nav>
+                                <ul>
+                                <li><a href="https://www.besthdwallpaper.com/cerca?q=one+piece">https://www.besthdwallpaper.com/cerca?q=one+piece</a></li>
+                                <li><a href="https://www.pngwing.com/ca/search?q=one+piece">https://www.pngwing.com/ca/search?q=one+piece</a></li>
+                                <li><a href="#">Tokyo</a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
                 </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                    <h2>Canals de youtube</h2>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <section>   
+                            <article>
+                                <h2>Descripció</h2>
+                                <p>Alguns canals de youtube que parlen de l'obra i de teories:</p>
+                            </article>
+                            <nav-imgyoutube></nav-imgyoutube>
+                            <nav>
+                                <ul>
+                                <li><a href="#">https://inmanga.com/ver/manga/One-Piece/1045/e7b5181b-7003-4812-9bed-dec39d51c9c0</a></li>
+                                <li><a href="#">Paris</a></li>
+                                <li>Pagina web tutorial desplegables: <a href="https://www.silocreativo.com/details-summary-elementos-desplegables-ocultos-html/">https://www.silocreativo.com/details-summary-elementos-desplegables-ocultos-html/</a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,7 +156,7 @@
                 <h2>Descripció</h2>
                 <p>Algunes pagines webs on pots llegir el manga:</p>
             </article>
-            <nav-img></nav-img>
+            <nav-imgmanga></nav-imgmanga>
             <nav>
                 <ul>
                 <li>Catala: <a href="https://manga.fansubs.cat/serialitzats/one-piece">https://manga.fansubs.cat/serialitzats/one-piece</a></li>
@@ -176,7 +178,7 @@
                 <h2>Descripció</h2>
                 <p>Algunes pagines webs on pots veure l'Anime:</p>
             </article>
-            <nav-img1></nav-img1>
+            <nav-imganime></nav-imganime>
             <nav>
                 <ul>
                 <li>Flvanime: <a href="https://www3.animeflv.net/anime/one-piece-tv">https://www3.animeflv.net/anime/one-piece-tv</a></li>
@@ -198,6 +200,7 @@
                 <h2>Descripció</h2>
                 <p>Tota l'informacio de la sèrie:</p>
             </article>
+            <nav-imgwiki></nav-imgwiki>
             <nav>
                 <ul>
                 <li>OnePieceWiki: <a href="https://onepiece.fandom.com/es/wiki/One_Piece_Wiki">https://onepiece.fandom.com/es/wiki/One_Piece_Wiki</a></li>
@@ -219,6 +222,7 @@
                 <h2>Descripció</h2>
                 <p>Algunes pagines webs on pots trobar fons d'escriptori tant per pc com per mobil:</p>
             </article>
+            <nav-imgfons></nav-imgfons>
             <nav>
                 <ul>
                 <li><a href="https://www.besthdwallpaper.com/cerca?q=one+piece">https://www.besthdwallpaper.com/cerca?q=one+piece</a></li>
@@ -241,6 +245,7 @@
                 <h2>Descripció</h2>
                 <p>Alguns canals de youtube que parlen de l'obra i de teories:</p>
             </article>
+            <nav-imgyoutube></nav-imgyoutube>
             <nav>
                 <ul>
                 <li><a href="#">https://inmanga.com/ver/manga/One-Piece/1045/e7b5181b-7003-4812-9bed-dec39d51c9c0</a></li>

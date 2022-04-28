@@ -51,6 +51,11 @@ p.round3 {
     text-align: justify;
     
 }
+p.round3:hover{
+background-color:rgb(193, 195, 215);
+color:#000;
+}
+
 p.round4 {
     font-family: "Monaco", "Courier New", monospace;
     font-size: 30px;
