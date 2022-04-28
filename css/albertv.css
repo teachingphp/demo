@@ -54,9 +54,9 @@ nav{
 -ms-flex: 3;
 flex: 3;
 background: #ccc;
-padding: 70px;
+padding: 50px;
 }
-nav-img{
+nav-imgmanga{
     /*<link rel="stylesheet" type="text/css" href="../css/albertv.css?v=<?php echo time(); ?>">*/
 -webkit-flex: 3;
 -ms-flex: 3;
@@ -65,7 +65,7 @@ background: #ccc;
 padding: 50px;
 background-image: url("../pagines/imatges/luffygear5.png");
 }
-nav-img1{
+nav-imganime{
     /*<link rel="stylesheet" type="text/css" href="../css/albertv.css?v=<?php echo time(); ?>">*/
 -webkit-flex: 3;
 -ms-flex: 3;
@@ -73,6 +73,33 @@ flex: 3;
 background: #ccc;
 padding: 50px;
 background-image: url("https://i.blogs.es/66d21d/one-piece/840_560.jpeg");
+}
+nav-imgwiki{
+    /*<link rel="stylesheet" type="text/css" href="../css/albertv.css?v=<?php echo time(); ?>">*/
+-webkit-flex: 3;
+-ms-flex: 3;
+flex: 3;
+background: #ccc;
+padding: 50px;
+background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7cb19f3d-c120-4a5d-9724-f24f8b8b5c50/dd2nvnj-e0371193-d35c-4f2a-b4b7-dadd33d18a20.jpg/v1/fill/w_1043,h_766,q_70,strp/one_piece___planning_new_adventures_by_stadla_dd2nvnj-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwMCIsInBhdGgiOiJcL2ZcLzdjYjE5ZjNkLWMxMjAtNGE1ZC05NzI0LWYyNGY4YjhiNWM1MFwvZGQybnZuai1lMDM3MTE5My1kMzVjLTRmMmEtYjRiNy1kYWRkMzNkMThhMjAuanBnIiwid2lkdGgiOiI8PTE3NzAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Z2bRZSImKl1Y8X3yyr8d7AZ6PAZ-Uap4-orwFCmakrQ");
+}
+nav-imgfons{
+    /*<link rel="stylesheet" type="text/css" href="../css/albertv.css?v=<?php echo time(); ?>">*/
+-webkit-flex: 3;
+-ms-flex: 3;
+flex: 3;
+background: #ccc;
+padding: 50px;
+background-image: url("https://images6.alphacoders.com/606/606263.jpg");
+}
+nav-imgyoutube{
+    /*<link rel="stylesheet" type="text/css" href="../css/albertv.css?v=<?php echo time(); ?>">*/
+-webkit-flex: 3;
+-ms-flex: 3;
+flex: 3;
+background: #ccc;
+padding: 0px;
+background-image: url("https://phantom-marca.unidadeditorial.es/965641e78e7a7af1dcf0a3eccb6dabd9/resize/660/f/webp/assets/multimedia/imagenes/2022/04/25/16508822676282.jpg");
 }
 
 
