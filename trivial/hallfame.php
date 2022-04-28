@@ -14,7 +14,7 @@ if ($mysqli -> connect_errno) {
     die("Connection failed: " . $mysqli -> connect_error);
 }else{
     //echo 'Connected successfully';
-    $sql = "SELECT ID, NOM, AVATAR, ID github FROM basetest ORDER BY ID";
+    $sql = "SELECT ID, NOM, AVATAR, ID_github FROM alumnes ORDER BY ID";
     $result = $mysqli -> query($sql);
     
     //$result -> fetch_array(MYSQLI_ASSOC);
