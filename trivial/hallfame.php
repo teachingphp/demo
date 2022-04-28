@@ -1,7 +1,7 @@
 <!doctype html>
 <?php
 $host= "localhost";
-$database = "testtrivial";
+$database = "basetest";
 $username = "root";
 $password = "";
  
@@ -14,7 +14,7 @@ if ($mysqli -> connect_errno) {
     die("Connection failed: " . $mysqli -> connect_error);
 }else{
     //echo 'Connected successfully';
-    $sql = "SELECT IDALUM, NOM, AVATAR FROM alumnes ORDER BY IDALUM ";
+    $sql = "SELECT ID, NOM, AVATAR, ID_github FROM alumnes ORDER BY ID";
     $result = $mysqli -> query($sql);
     
     //$result -> fetch_array(MYSQLI_ASSOC);
@@ -99,7 +99,7 @@ if ($mysqli -> connect_errno) {
         <h6 class="mb-0">'.$value["NOM"].'</h6>
         <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
       </div>
-      <small class="opacity-50 text-nowrap">'.$value["IDALUM"].'</small>
+      <small class="opacity-50 text-nowrap">'.$value["ID"].'</small>
    
       </div>
       </a>';

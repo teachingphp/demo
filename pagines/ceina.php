@@ -1,7 +1,7 @@
 <!doctype html>
 <?php
 $host= "localhost";
-$database = "prova_trivial";
+$database = "basadotest";
 $username = "root";
 $password = "";
  
@@ -14,7 +14,7 @@ if ($mysqli -> connect_errno) {
     die("Connection failed: " . $mysqli -> connect_error);
 }else{
     //echo 'Connected successfully';
-    $sql = "SELECT ID, NOM, AVATAR, IDGITHUB FROM alumnes ORDER BY nom";
+    $sql = "SELECT idalumne, NomAlumne, Avatar FROM alumnes ORDER BY idalumne";
     $result = $mysqli -> query($sql);
     
     //$result -> fetch_array(MYSQLI_ASSOC);
@@ -158,14 +158,15 @@ if ($mysqli -> connect_errno) {
 
       <?php
         foreach($result as $value){
-        $ruta = "https://github.com/".$value["AVATAR"] .".png";
+        $ruta = "https://github.com/".$value["Avatar"] .".png";
+        $llocav="https://github.com/".$value["Avatar"];
         $alumne = '
         <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'.$ruta.'" </img>
 
-        <h2>'.$value["NOM"].'</h2>
-        <p>'.$value["IDALUM"].'</p>
-        <p><a class="btn btn-secondary" href="#">Veure perfil &raquo;</a></p>
+        <h2>'.$value["Avatar"].'</h2>
+        <p>'.$value["idalumne"].'</p>
+        <p><a class="btn btn-secondary" href="'.$llocav.'">Veure perfil &raquo;</a></p>
       </div>';
         echo $alumne;
       }

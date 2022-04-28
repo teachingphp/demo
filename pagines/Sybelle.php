@@ -30,7 +30,12 @@
   <br><br>
 
   <div class="row">
-  <div class="column left"><p>Ghost Master is a realistic Oriental culture, 1V5 asymmetric competitive game launched by QL Studio. The game is based on the all-embracing traditional Oriental culture and designed to let players experience the charm of traditional Oriental strange culture, .</p></div>
+  <div class="column left">
+      <h3>Rememorant una Magnum Opus</h3>
+      <p>Molts han sigut els jocs oblidats pel temps, grans meravelles d'aquest món del <i>gaming</i> que només segueixen vives als records dels jugadors. Per aixó avui vinc a compartir un d'aquests records amb vosaltres, un dels jocs que més enyorança em porta, <b>Ghost Master</b>.</p>
+      <img src="./imatges/Ghost Master PortadaCool.png">
+    </div>
+      
   <div class="column right"><p></p></div>
 </div>
 </div>

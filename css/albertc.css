@@ -28,7 +28,12 @@ h1{
         font-weight: normal;
         font-style: normal;
     }
-
+    @font-face {
+      font-family: 'NotBasadaFx';
+      src: url('../pagines/fonts/Future TimeSplitters.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
 
     button {
         font-size: 16px;
@@ -94,3 +99,11 @@ h1{
       .right {
         width: 25%;
       }
+<<<<<<< HEAD
+
+h3 {
+    font-family:'NotBasadaFx';
+    font-size: 40px;
+    }
+=======
+>>>>>>> 9e34d64c4f3ab2a4bf97a5f43e38dc8cc711dbff
