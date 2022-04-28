@@ -81,14 +81,15 @@ if ($mysqli -> connect_errno) {
     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
   </symbol>
 </svg>
+
  
-<div class="list-group">
+<div class="list-group holi">
   <?php
         foreach($result as $value){
         $ruta = "https://github.com/".$value["AVATAR"] .".png";
         $alumne = '
         <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-        <img  alt="Putos" width="32" height="32" class="rounded-circle flex-shrink-0src="'.$ruta.'" </img>
+        <img  alt="Putos" width="32" height="32" class="rounded-circle flex-shrink-0 src="'.$ruta.'" </img>
 
         
         <div class="d-flex gap-2 w-100 justify-content-between">
@@ -98,53 +99,24 @@ if ($mysqli -> connect_errno) {
         <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
       </div>
       <small class="opacity-50 text-nowrap">'.$value["IDALUM"].'</small>
-    </div>
-  </a>
-      </div>';
+   
+      </div>
+      </a>';
         echo $alumne;
       }
       ?>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-     
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">now</small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">3d</small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">1w</small> 
-    </div>
-  </a>
-</div>
-  <br><br>
-<div class="b-example-divider"></div>
+      </div><br><br>
+      
+    <div class="b-example-divider"></div>
+  
 
-<div class="list-group">
+
+<div class="list-group holi2">
   <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
     <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
     <div class="d-flex gap-2 w-100 justify-content-between">
       <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
+        <h6 class="mb-0">Nom del praticipant per a ranking</h6>
         <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
       </div>
       <small class="opacity-50 text-nowrap">now</small>
@@ -154,24 +126,15 @@ if ($mysqli -> connect_errno) {
     <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
     <div class="d-flex gap-2 w-100 justify-content-between">
       <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
-        <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
-      </div>
-      <small class="opacity-50 text-nowrap">3d</small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Nom del praticipant</h6>
+        <h6 class="mb-0">Nom del praticipant per a ranking </h6>
         <p class="mb-0 opacity-75">descripcio de les preguntes respostes o respostes encertades</p>
       </div>
       <small class="opacity-50 text-nowrap">1w</small> 
     </div>
-  </a>
+  </a><br><br>
+  
 </div>
-  <br><br>
+
 <div class="b-example-divider"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

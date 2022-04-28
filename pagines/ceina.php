@@ -1,7 +1,7 @@
 <!doctype html>
 <?php
 $host= "localhost";
-$database = "testtrivial";
+$database = "prova_trivial";
 $username = "root";
 $password = "";
  
@@ -14,7 +14,7 @@ if ($mysqli -> connect_errno) {
     die("Connection failed: " . $mysqli -> connect_error);
 }else{
     //echo 'Connected successfully';
-    $sql = "SELECT IDALUM, NOM, AVATAR FROM alumnes ORDER BY IDALUM ";
+    $sql = "SELECT ID, NOM, AVATAR, IDGITHUB FROM alumnes ORDER BY nom";
     $result = $mysqli -> query($sql);
     
     //$result -> fetch_array(MYSQLI_ASSOC);
