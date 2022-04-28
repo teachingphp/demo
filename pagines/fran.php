@@ -11,7 +11,7 @@
         </style>
         <!--https://www.w3schools.com/tags/ -->  
         <form action=./fran2.php>
-        <button> Personajes </button>
+        <button> Seguir </button>
         </form>
     </body>
 </html>

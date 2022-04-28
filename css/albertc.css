@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 /*https://www.w3schools.com/css/default.asp*/
 body{
     background-image: url('../pagines/imatges/RobandoJajaSalu2.png');
@@ -28,7 +27,12 @@ h1{
         font-weight: normal;
         font-style: normal;
     }
-
+    @font-face {
+      font-family: 'NotBasadaFx';
+      src: url('../pagines/fonts/Future TimeSplitters.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
 
     button {
         font-size: 16px;
@@ -94,3 +98,9 @@ h1{
       .right {
         width: 25%;
       }
+
+
+h3 {
+    font-family:'NotBasadaFx';
+    font-size: 40px;
+    }
