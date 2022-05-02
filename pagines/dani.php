@@ -1,17 +1,27 @@
 <!DOCTYPE HTML>  
 <html>
     <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
         <link rel="stylesheet" type="text/css" href="../css/dani.css?v=<?php echo time(); ?>">
         <title>Dani</title>
-        <div id="rectangle" style= "width:100%;height:100px;   background:white;text-align:center;">
         <br>
     </head><!-- position:absolute; top: 10%; left:12.5%;--->
     <body>
         <!--https://www.w3schools.com/tags/ --> 
-        <h1>TIERS POWER SCALING</h1>
+        <div class="container">
+            <div class="card border-0 shadow my-5">
+                <div class="card-body p-5">
+                <h1 class="fw-light">TIERS POWER SCALING</h1>
+                </div>
+            </div>
         </div>
-        <br><br>
-         <h2>Para daros una idea de lo que vereis a continuacion, tendreis que entender como funcionan las leyes fisicas en el entorno del comic, pues algunas se tienen en cuenta y otras simplemente son ignoradas al completo, pues los escritores de este tipo de ilustracion no son cientificos ni mucho menos, asi que es natural que no sepan las cosecuencias de todas las leyes fisicas impuestas a un cuerpo.</h2>
+        </div>
+        <br>
+        <div class="container">
+        <div class="card border-0 shadow my-5">
+            <div class="card-body p-5">
+            <h2>Para daros una idea de lo que vereis a continuacion, tendreis que entender como funcionan las leyes fisicas en el entorno del comic, pues algunas se tienen en cuenta y otras simplemente son ignoradas al completo, pues los escritores de este tipo de ilustracion no son cientificos ni mucho menos, asi que es natural que no sepan las cosecuencias de todas las leyes fisicas impuestas a un cuerpo.</h2>
          <img src="https://okdiario.com/img/2021/03/10/universo-teorias-del-espacio-tiempo-1-620x349.jpg" alt="galaxia" width="600" height="300" class="center">
          <br><br>
         <h2>Las leyes fisicas que sigue cada verso ficticio dependen de este mismo, pues en uno podria ser posible reducir un cuerpo al tamaño de un atomo, y en otro seria completamente imposible debido a la estructura biologica humana, la cual no esta preparada para que el cerebro funcione de la misma manera con un diferente tamaño.</h2>
@@ -27,15 +37,15 @@
         <h2>Tiers power scaling:</h2>
         <div class = "tablecl">
         <table>
-        <tr class="tr">
-        <th><img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png" width="42px" height="42px"></th>
-        <th><p class="p">Nivel humano 1-C:</p></th>
-        <th><img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png" width="42px" height="42px"></th>
-        </tr>
-</table>
-</div>
+            <tr class="tr">
+            <th><img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png" width="42px" height="42px"></th>
+            <th><p class="p">Nivel humano 1-C:</p></th>
+            <th><img src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png" width="42px" height="42px"></th>
+            </tr>
+        </table>
+        </div>
 
-<p>Personajes capaces de ejercer una fuerza comparable a la de los humanos que están por debajo de la norma promedio en términos de fuerza, como niños pequeños o personas enfermas, así como animales más pequeños como gatos y perros.</p>
+        <p>Personajes capaces de ejercer una fuerza comparable a la de los humanos que están por debajo de la norma promedio en términos de fuerza, como niños pequeños o personas enfermas, así como animales más pequeños como gatos y perros.</p>
 <img src="https://www.soyvisual.org/sites/default/files/styles/facebook_og/public/images/photos/debil.jpg?itok=78ndLLdQ" alt="debiight="300" class="center">
 <h2>Nivel humano 2-B:</h2>
 <p>Personajes capaces de ejercer una fuerza comparable a la de los humanos normales, como adolescentes o adultos poco adleticos.</p>
@@ -107,6 +117,12 @@
 
 
     </details>
+            </div>
+        </div>
+        </div>
+         
+
+
     </body>
 
 </html>
