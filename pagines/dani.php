@@ -63,14 +63,14 @@
 <h2>Nivel habitacion 3-A:</h2>
 <p>Personajes capaces de destruir una habitacion de concreto/metal a base de fuerza y destreza, siendo capaces tambien de dañar a personajes de igual resistencia a la de su potencia de ataque.</p>
 <img src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/03/hipertextual-resident-evil-3-remake-nunca-estaras-salvo-nemesis-ni-salas-seguras-2020605152.jpg?fit=1920%2C1080&ssl=1" alt="nemecio" width="600" class="center">
-<h2>Nivel Urbano bajo 1-C:</h2>
+<h2>Nivel Urbano:Bajo 1-C:</h2>
 <p>Personajes que pueden destruir desde muros demasiado grandes y duros, una habitación, hasta casas de mediana envergadura o edificios pequeños. También entran en esta clasificación aquellos que pueden dañar fácilmente a personajes  con una resistencia de este nivel. Animales extremadamente grandes.</p>
 <img src="https://i.pinimg.com/736x/15/3c/79/153c79c1061da4ee3de90645da846129--one-punch-man-manga.jpg" alt="prototipe" width="600" height="300" class="center">
 <h2>Nivel edificio 2-B:</h2>
 <p>Personajes capaces de destruir edificios de tamaño promedio o estructuras de una resistencia o tamaño igual. Los personajes con una fuerza capaz de dañar a seres de nivel edificio tambien entran en la misma categoria.</p>
 <img src="https://pbs.twimg.com/media/Cs0vJg_WEAIT81c?format=jpg&name=large" alt="mercer" width="600" height="300" class="center">
-<h2>Chapter 9</h2>
-<p>This chapter explains ba bla bla</p>
+<h2>Nivel edificio:Alto </h2>
+<p>Seres capaces de destruir edificios giga</p>
 
 <h2>Chapter 10</h2>
 <p>This chapter explains ba bla bla</p>
