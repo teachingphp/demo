@@ -1,4 +1,12 @@
 <!doctype html>
+<?php
+/* definicio de la cockieee */
+
+if(isset($_COOKIE["galleta"])){
+  echo $_COOKIE["galleta"];
+  $nomusuari = $_COOKIE["galleta"];
+}   
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Headers · Bootstrap v5.1</title>
+    <title>Cabeceras</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
 
@@ -66,7 +74,7 @@
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
        <img src="https://cdn-icons.flaticon.com/png/512/3975/premium/3975233.png?token=exp=1651143202~hmac=e99baa088d62498f3380e3513c7db7a1"width="40" height="32">
         
-      </a>
+      </a> 
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="#" class="nav-link px-2 link-dark">Inici</a></li>
@@ -96,7 +104,6 @@
   </header>
 
 </main>
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       
