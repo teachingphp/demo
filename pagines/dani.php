@@ -3,10 +3,13 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../css/dani.css?v=<?php echo time(); ?>">
         <title>Dani</title>
-    </head>
+        <div id="rectangle" style= "width:100%;height:100px;   background:white;text-align:center;">
+        <br>
+    </head><!-- position:absolute; top: 10%; left:12.5%;--->
     <body>
-        <!--https://www.w3schools.com/tags/ -->  
+        <!--https://www.w3schools.com/tags/ --> 
         <h1>TIERS POWER SCALING</h1>
+        </div>
         <br><br>
          <h2>Para daros una idea de lo que vereis a continuacion, tendreis que entender como funcionan las leyes fisicas en el entorno del comic, pues algunas se tienen en cuenta y otras simplemente son ignoradas al completo, pues los escritores de este tipo de ilustracion no son cientificos ni mucho menos, asi que es natural que no sepan las cosecuencias de todas las leyes fisicas impuestas a un cuerpo.</h2>
          <img src="https://okdiario.com/img/2021/03/10/universo-teorias-del-espacio-tiempo-1-620x349.jpg" alt="galaxia" width="600" height="300" class="center">
@@ -21,7 +24,7 @@
         <details>
         <summary>Nivel humano 1-C:</summary>
          <!--<img class="emoji" src="https://images.emojiterra.com/openmoji/v13.1/512px/1f9cd.png"style="float:left;width:42px;height:42px;">--->
-        <h2>Nivel humano 1-C:</h2>
+        <h2>Tiers power scaling:</h2>
         <div class = "tablecl">
         <table>
         <tr class="tr">
@@ -33,7 +36,7 @@
 </div>
 
 <p>Personajes capaces de ejercer una fuerza comparable a la de los humanos que están por debajo de la norma promedio en términos de fuerza, como niños pequeños o personas enfermas, así como animales más pequeños como gatos y perros.</p>
-<img src="https://www.soyvisual.org/sites/default/files/styles/facebook_og/public/images/photos/debil.jpg?itok=78ndLLdQ" alt="debil" width="600" height="300" class="center">
+<img src="https://www.soyvisual.org/sites/default/files/styles/facebook_og/public/images/photos/debil.jpg?itok=78ndLLdQ" alt="debiight="300" class="center">
 <h2>Nivel humano 2-B:</h2>
 <p>Personajes capaces de ejercer una fuerza comparable a la de los humanos normales, como adolescentes o adultos poco adleticos.</p>
 <img src="https://storage.googleapis.com/twinero-blog/2/2016/03/hombre-trajeado-ajustando-corbata.jpg" alt="trajeado" width="600" height="300" class="center">
@@ -44,18 +47,18 @@
 <h2>Nivel sobrehumano 1-C:</h2>
 <p>Aquellos cuya fuerza se encuentra en el humbral de las capacidades humanas, siendo el mayor exponente atletas de nivel olímpico o artistas marciales rigurosamente entrenados, así como por animales más grandes.  </p>
 <img src="https://areajugones.sport.es/wp-content/uploads/2015/11/3069068-1096586437-scott.jpg" alt="fuerte" width="600" height="300" class="center">
-<h2>Nivel sobrehumano 2-C:</h2>
-<p></p>
-
-<h2>Chapter 6</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 7</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 8</h2>
-<p>This chapter explains ba bla bla</p>
-
+<h2>Nivel sobrehumano 2-B:</h2>
+<p>Personajes cuya fuerza y destreza les permite derribar o destruir muros de concreto/metal o cualquier material de igual dureza. Tambien pueden dañar a seres de igual resistencia a la de su capacidad de destruccion.</p>
+<img src="https://img.europapress.es/fotoweb/fotonoticia_20200418161053_420.jpg" alt="lovezno" width="600" height="300" class="center">
+<h2>Nivel habitacion 3-A:</h2>
+<p>Personajes capaces de destruir una habitacion de concreto/metal a base de fuerza y destreza, siendo capaces tambien de dañar a personajes de igual resistencia a la de su potencia de ataque.</p>
+<img src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/03/hipertextual-resident-evil-3-remake-nunca-estaras-salvo-nemesis-ni-salas-seguras-2020605152.jpg?fit=1920%2C1080&ssl=1" alt="nemecio" width="600" class="center">
+<h2>Nivel Urbano bajo 1-C:</h2>
+<p>Personajes que pueden destruir desde muros demasiado grandes y duros, una habitación, hasta casas de mediana envergadura o edificios pequeños. También entran en esta clasificación aquellos que pueden dañar fácilmente a personajes  con una resistencia de este nivel. Animales extremadamente grandes.</p>
+<img src="https://i.pinimg.com/736x/15/3c/79/153c79c1061da4ee3de90645da846129--one-punch-man-manga.jpg" alt="prototipe" width="600" height="300" class="center">
+<h2>Nivel edificio 2-B:</h2>
+<p>Personajes capaces de destruir edificios de tamaño promedio o estructuras de una resistencia o tamaño igual. Los personajes con una fuerza capaz de dañar a seres de nivel edificio tambien entran en la misma categoria.</p>
+<img src="https://pbs.twimg.com/media/Cs0vJg_WEAIT81c?format=jpg&name=large" alt="mercer" width="600" height="300" class="center">
 <h2>Chapter 9</h2>
 <p>This chapter explains ba bla bla</p>
 
