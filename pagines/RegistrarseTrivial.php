@@ -30,10 +30,24 @@
     <label for="Confirma Contraseña">Confirma Contraseña:</label>
         <input type="password" placeholder="Confirma Contraseña" id="ConfirmContra" required>
         <br><br>
-        
+
+
         <input type="submit" name="crearU" value="VERIFICA EL CORREO">
         </div>
     </form>
+    <!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
     </div>
   
 
