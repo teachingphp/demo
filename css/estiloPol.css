@@ -1,8 +1,9 @@
-body {
-    background-color: bisque;
-    margin-left: 2.5%;
-  }
 
+
+body {
+    background-color: bisque; 
+    cursor: url("../test_fitxers/pizza.png") 16 16, pointer;
+  }
 
 h1 {
     color: brown;

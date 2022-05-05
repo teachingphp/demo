@@ -1,9 +1,14 @@
+
 <html>
 <body>
 <br>
 
-<h1 style="color:ACD1A7">Gràcies <?php echo gracies() ?>! </h1>
-<h2 style=color:B8DFB2> El teu usuari s'ha enregistrat correctament. </h2>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/test_loginm.css?v=<?php echo time(); ?>">
+</head>
+
+<h1>Gràcies <?php echo gracies() ?>! </h1>
+<h1>El teu usuari s'ha enregistrat correctament. </h1>
 
 <?php
 
@@ -24,3 +29,6 @@ if(isset($_POST["contrasenya"])){
 
 
 ?>
+
+</body>
+</html>
