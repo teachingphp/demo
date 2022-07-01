@@ -1,0 +1,31 @@
+body{
+    background-image:url("./Fotos/ImageRegalo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+hr{
+    border-width: 3px; 
+}
+
+
+h1{
+    text-align: center;
+    font-size:100%;
+}   
+
+p{
+
+    text-align: center;
+    font-size:100%;
+
+}
+
+    
+ 
+    
+
+    
+
