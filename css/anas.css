@@ -1,2 +1,10 @@
 /*https://www.w3schools.com/css/default.asp*/
 
+h1 {
+    color: rgb(240, 9, 9);
+    text-align: center;
+  }
+  body {
+    background-color: rgb(119, 132, 136);
+  }
+                     

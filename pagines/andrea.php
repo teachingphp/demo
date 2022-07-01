@@ -7,6 +7,8 @@
   
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
        
+        <!-- CSS only -->
+
         <title>Andrea</title>
     </head>
     <body>
@@ -52,6 +54,9 @@
 
         <h1>Juga a Tutti Frutti</h1>
 
+
+
+
         <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
@@ -68,356 +73,100 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td><td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value=""></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value=""></td>
-                
-            </tr>
+        <?php
+            $I=1;
             
+            WHILE ($I<= 27) {
 
-            
-
+            $columna = 1;
+           ECHO "<tr>";
+           ECHO     '<td><input id = "'. $I . $columna.'" type="text"  value=""></td>';
+           $columna = 2;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 3;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 4;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 5;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 6;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 7;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 8;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 9;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value=""></td>';
+           $columna = 10;
+           ECHO     '<td><input id = '. $I . $columna.' type="text"  value="0"></td>';
+                
+           ECHO "</tr>";
+            $I=$I +1;
+            }
+        ?>      
+           
+           <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style = "text-align:center"><strong><button type="button" onclick= "calcular()">Calcula resultado</button></strong></td>
+                <td><label id = "total" style = "display:none"> </td>
+                
+            </tr>    
+    
             </table>
-
 
             <script type="text/javascript">
                 $(document).ready( function () {
-                    $('#example').DataTable();
+                    //$('#example').DataTable();
                 } );
             </script>   
+
+        <input type="submit" name="submit" value="Generar lletra" onclick= "mostrar()">
+
+       <label id = "text_lletra" style = "display:none"> 
+            <strong></strong><br/>
+            </label>
+
+
+
+        <script type="text/javascript">
+        function mostrar(){
+            var primera_lletra = String.fromCharCode(97+Math.floor(Math.random() * 26))
+            console.log (primera_lletra);
+            var text_anterior = "La letra aleatoria generada es:";
+            $("#text_lletra").text(text_anterior + primera_lletra);
+            $("#text_lletra").show();
+
+           
+        }
+
+        function calcular(){
+            //alert(document.getElementById("110").value);
+            var total = parseInt(document.getElementById("110").value) + parseInt(document.getElementById("210").value) +
+            parseInt(document.getElementById("310").value) + parseInt(document.getElementById("410").value) + 
+            parseInt(document.getElementById("510").value) + parseInt(document.getElementById("610").value) +
+            parseInt(document.getElementById("710").value) + parseInt(document.getElementById("810").value) +
+            parseInt(document.getElementById("910").value) + parseInt(document.getElementById("1010").value) +
+            parseInt(document.getElementById("1110").value) + parseInt(document.getElementById("1210").value) + 
+            parseInt(document.getElementById("1310").value) + parseInt(document.getElementById("1410").value) +
+            parseInt(document.getElementById("1510").value) + parseInt(document.getElementById("1610").value) +
+            parseInt(document.getElementById("1710").value) + parseInt(document.getElementById("1810").value) +
+            parseInt(document.getElementById("1910").value) + parseInt(document.getElementById("2010").value) + 
+            parseInt(document.getElementById("2110").value) + parseInt(document.getElementById("2210").value) +
+            parseInt(document.getElementById("2310").value) + parseInt(document.getElementById("2410").value) +
+            parseInt(document.getElementById("2510").value) + parseInt(document.getElementById("2610").value) +
+            parseInt(document.getElementById("2710").value); 
+
+            $("#total").text(total);
+            $("#total").show();
+        }
+    </script>   
 
     </body>
 </html>

@@ -6,7 +6,7 @@
     </head>
     <body>
         <!--https://www.w3schools.com/tags/ -->  
-        <h1>La meva pàgina personal</h1>
+        <h1>FIFA 52-</h1>
 
     </body>
 </html>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>  
 <html>
     <head>
@@ -5,8 +6,12 @@
         <title>Fran</title>
     </head>
     <body>
+        <style> 
+        h1 {color:white;}
+        </style>
         <!--https://www.w3schools.com/tags/ -->  
-        <h1>La meva pàgina personal</h1>
-
+        <form action=./fran2.php>
+        <button> Seguir </button>
+        </form>
     </body>
 </html>

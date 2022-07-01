@@ -1,23 +1,35 @@
+
 /*https://www.w3schools.com/css/default.asp*/
 body{
     background-image: url('../pagines/imatges/RobandoJajaSalu2.png');
-    padding: 0px 40px 40px 40px;
     cursor: url('../pagines/imatges/FantasmikoTest1.png'),auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
-h1{
-        width: 30%;
-    border: 10px solid rgb(255, 255, 255);
-  padding: 25px 20px 20px 20px;
+
+ 
+.fw-light {
+  border: 3px solid rgb(13, 153, 44);
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  font-family:'BasadaFx';
+}
+
+h5{
+        width: 50%;
+    border: 3px solid rgb(13, 153, 44);
+  padding: 20px 20px 20px 20px;
   background-color: lightblue;
     font-family:'BasadaFx';
     font-size: 47px;
+    text-align: center;
 }
-.content-inner {
-    padding: 10px 100px 100%;
-    }
-    .content-inner {
-    background-color: #ffffff;
-    }
 
     /*https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
     @font-face {
@@ -26,7 +38,12 @@ h1{
         font-weight: normal;
         font-style: normal;
     }
-
+    @font-face {
+      font-family: 'NotBasadaFx';
+      src: url('../pagines/fonts/Future TimeSplitters.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
 
     button {
         font-size: 16px;
@@ -52,11 +69,61 @@ h1{
       
       .fade {
         opacity: 0.2;
+
+      }
+
+
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
         top: 0;
         left: 0;
         transform: translate(100%, 100%);
       }
-      h2.HeadTime {
+      h2.HeadTime, .Parag1 {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 25px;
+        font-size: 13px;
       }
+
+      .Parag1 {
+        font-size: 15px;
+        width: 70%;
+      }
+
+      .Sidebar {
+        font-size: 15px;
+        width: 30%;
+      }
+
+  
+
+        img{
+        width: 75%;
+      }
+
+h3 {
+    font-family:'NotBasadaFx';
+    font-size: 40px;
+    }
+
+    
+    .fog-anim{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      background: url('../pagines/imatges/Boira.png') repeat-x;
+      background-size: 200% auto;
+      background-position: 0 bottom;
+      animation: fogAnim 60s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes fogAnim {
+      0%{ background-position: -200% bottom }
+      100%{ background-position: 0% bottom }
+      
+  }
