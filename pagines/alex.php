@@ -5,17 +5,10 @@
         <title>Alex</title>
         <nav><ul>
         <li><a href="#">Inicio</a></li>
-<<<<<<< HEAD
         <li><a href="http://localhost/demo/webpages/Cosesquiensomos.php">Quiénes somos</a></li>
         <li><a href="#">Servicios</a></li>
         <li><a href="#">Contactanos</a></li>
         <li><a href="http://localhost/demo/webpages/Coseslogin.php">Registrarse</a></li>
-=======
-        <li><a href="./webpages/Cosesquiensomos.php">Quiénes somos</a></li>
-        <li><a href="https://americanhistory.si.edu/lighting/bios/photo2.htm#p22">Para mas info</a></li>
-        <li><a href="./webpages/Contactanos.php">Contactanos</a></li>
-        <li><a href="./webpages/Coseslogin.php">Registrarse</a></li>
->>>>>>> 13c1fce4c65cd6a2885f6b68abf477bc9ccbb300
     </ul></nav>
     </head>
 
