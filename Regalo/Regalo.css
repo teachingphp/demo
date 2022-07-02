@@ -1,9 +1,5 @@
 body{
-    background-image:url("./Fotos/ImageRegalo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+   background-color: aqua;
 }
 
 hr{
@@ -23,9 +19,12 @@ p{
 
 }
 
+.boton{
     
- 
+    top: 50%;
     
+    
+}
 
     
 

@@ -5,15 +5,12 @@
 </head>
 <body>
 <br>
-  <h1>Bienvenido a la Página</h1>
-  <p>Leedlo todo please</p>
-  
+  <h1>Bienvenido a tu Regalo</h1>  
 <br>
 
   <hr class ="hr">
-<button href="#">Este botón está esperando una funcionalidad</button>
-
-<article>
+  
+  <article>
 <p>Este botón sirve para reunir un grupo</p>
 
 <h2 style=" text-align: center;">Un grupo que creara sentimientos y alegrías, aparte de avances
@@ -28,6 +25,20 @@
 <h2 style="text-align: center; color:blue;">Lo que haré será dejar los archivos en el repositorio demo</h2>
 
 </article>
+
+
+  <div style="text-align: center;">
+    
+    <button>
+      
+        <a href="./Regalotodos.php">
+          
+        <img src="https://pa1.narvii.com/7708/b6e0f90d056caa4c947a429e0d087b6677c89ca5r1-460-460_hq.gif"></img>
+         
+        </a>
+      
+    </button>
+</div>
 
 
 
